@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Techniek Quiz - Green Theme (#CCD626) -->
+<quiz>
+    <id>techniek</id>
+    <title>Techniek &amp; Engineering</title>
+    <description>Test je kennis van technische principes, technologie en technische toepassingen</description>
+    <difficulty>gemiddeld</difficulty>
+    <passingScore>70</passingScore>
+    <timeLimit>25</timeLimit>
+    <theme>#CCD626</theme>
+    <category>Techniek</category>
+    <questions>
+        <!-- Software Engineering -->
+        <question>
+            <id>tech1</id>
+            <text>Wat is het hoofdprincipe van Object-Georiënteerd Programmeren (OOP)?</text>
+            <answers>
+                <answer id="a1">Code schrijven in één bestand</answer>
+                <answer id="a2">Code organiseren in objecten met eigenschappen en methoden</answer>
+                <answer id="a3">Alleen functies gebruiken</answer>
+                <answer id="a4">Datastructuren vermijden</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>OOP organiseert code in objecten die zowel data (eigenschappen) als functies (methoden) bevatten die op die data werken.</explanation>
+        </question>
+
+        <question>
+            <id>tech2</id>
+            <text>What does API stand for in software development?</text>
+            <answers>
+                <answer id="a1">Application Programming Interface</answer>
+                <answer id="a2">Automated Program Integration</answer>
+                <answer id="a3">Advanced Programming Instructions</answer>
+                <answer id="a4">Application Process Identifier</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>API (Application Programming Interface) defines how different software components should interact with each other.</explanation>
+        </question>
+
+        <question>
+            <id>tech3</id>
+            <text>What is version control in software development?</text>
+            <answers>
+                <answer id="a1">Testing software versions</answer>
+                <answer id="a2">System for tracking changes to files and coordinating work</answer>
+                <answer id="a3">Controlling software licenses</answer>
+                <answer id="a4">Managing software prices</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Version control systems track changes to code over time, allowing multiple developers to collaborate and maintain history.</explanation>
+        </question>
+
+        <!-- Database Technology -->
+        <question>
+            <id>tech4</id>
+            <text>What does SQL stand for?</text>
+            <answers>
+                <answer id="a1">Standard Query Language</answer>
+                <answer id="a2">Structured Query Language</answer>
+                <answer id="a3">Simple Query Logic</answer>
+                <answer id="a4">System Query Library</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>SQL (Structured Query Language) is used for managing and querying relational databases.</explanation>
+        </question>
+
+        <question>
+            <id>tech5</id>
+            <text>What is normalization in database design?</text>
+            <answers>
+                <answer id="a1">Making all data the same</answer>
+                <answer id="a2">Organizing data to reduce redundancy and improve integrity</answer>
+                <answer id="a3">Converting data to normal font</answer>
+                <answer id="a4">Standardizing column names</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Database normalization organizes data to minimize redundancy and dependency, improving data integrity and reducing storage space.</explanation>
+        </question>
+
+        <!-- Networking -->
+        <question>
+            <id>tech6</id>
+            <text>What does HTTP stand for?</text>
+            <answers>
+                <answer id="a1">HyperText Transfer Protocol</answer>
+                <answer id="a2">High Technology Transfer Process</answer>
+                <answer id="a3">Home Text Transmission Protocol</answer>
+                <answer id="a4">Hybrid Text Transfer Procedure</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>HTTP (HyperText Transfer Protocol) is the foundation of data communication on the World Wide Web.</explanation>
+        </question>
+
+        <question>
+            <id>tech7</id>
+            <text>What is the difference between HTTP and HTTPS?</text>
+            <answers>
+                <answer id="a1">HTTPS is faster</answer>
+                <answer id="a2">HTTPS adds encryption and security</answer>
+                <answer id="a3">HTTPS works only on mobile</answer>
+                <answer id="a4">No difference</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>HTTPS adds SSL/TLS encryption to HTTP, providing secure communication over the internet.</explanation>
+        </question>
+
+        <!-- Cybersecurity -->
+        <question>
+            <id>tech8</id>
+            <text>What is two-factor authentication (2FA)?</text>
+            <answers>
+                <answer id="a1">Using two passwords</answer>
+                <answer id="a2">Security method requiring two different verification factors</answer>
+                <answer id="a3">Having two user accounts</answer>
+                <answer id="a4">Logging in twice</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>2FA requires two different types of verification (something you know, have, or are) to enhance security.</explanation>
+        </question>
+
+        <question>
+            <id>tech9</id>
+            <text>What is a firewall in network security?</text>
+            <answers>
+                <answer id="a1">Physical wall protection</answer>
+                <answer id="a2">System that monitors and controls network traffic</answer>
+                <answer id="a3">Type of virus</answer>
+                <answer id="a4">Backup system</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>A firewall is a security system that monitors and controls incoming and outgoing network traffic based on security rules.</explanation>
+        </question>
+
+        <!-- Cloud Computing -->
+        <question>
+            <id>tech10</id>
+            <text>What is cloud computing?</text>
+            <answers>
+                <answer id="a1">Computing in the sky</answer>
+                <answer id="a2">Delivery of computing services over the internet</answer>
+                <answer id="a3">Weather prediction</answer>
+                <answer id="a4">Storing data in clouds</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Cloud computing provides on-demand access to computing resources (servers, storage, databases) over the internet.</explanation>
+        </question>
+
+        <!-- DevOps -->
+        <question>
+            <id>tech11</id>
+            <text>What is DevOps?</text>
+            <answers>
+                <answer id="a1">A programming language</answer>
+                <answer id="a2">Practice combining development and operations for faster delivery</answer>
+                <answer id="a3">Type of software</answer>
+                <answer id="a4">Hardware device</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>DevOps is a set of practices that combines software development and IT operations to shorten development lifecycle and deliver high-quality software.</explanation>
+        </question>
+
+        <!-- Artificial Intelligence -->
+        <question>
+            <id>tech12</id>
+            <text>What is machine learning?</text>
+            <answers>
+                <answer id="a1">Teaching machines to walk</answer>
+                <answer id="a2">Algorithms that improve performance through experience</answer>
+                <answer id="a3">Mechanical engineering</answer>
+                <answer id="a4">Computer assembly</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Machine learning is a subset of AI where algorithms learn and improve from data without being explicitly programmed for each task.</explanation>
+        </question>
+
+        <!-- Web Development -->
+        <question>
+            <id>tech13</id>
+            <text>What does CSS stand for?</text>
+            <answers>
+                <answer id="a1">Computer Style Sheets</answer>
+                <answer id="a2">Cascading Style Sheets</answer>
+                <answer id="a3">Creative Style System</answer>
+                <answer id="a4">Coded Style Structure</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>CSS (Cascading Style Sheets) is used for describing the presentation and styling of web documents.</explanation>
+        </question>
+
+        <question>
+            <id>tech14</id>
+            <text>What is responsive web design?</text>
+            <answers>
+                <answer id="a1">Fast-loading websites</answer>
+                <answer id="a2">Web design that adapts to different screen sizes and devices</answer>
+                <answer id="a3">Interactive websites</answer>
+                <answer id="a4">Animated websites</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Responsive web design ensures websites display well on various devices and screen sizes using flexible layouts and media queries.</explanation>
+        </question>
+
+        <!-- Hardware -->
+        <question>
+            <id>tech15</id>
+            <text>What does CPU stand for?</text>
+            <answers>
+                <answer id="a1">Central Processing Unit</answer>
+                <answer id="a2">Computer Programming Unit</answer>
+                <answer id="a3">Central Program Utility</answer>
+                <answer id="a4">Computer Processing Utility</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>CPU (Central Processing Unit) is the primary component that executes instructions and performs calculations in a computer.</explanation>
+        </question>
+
+        <question>
+            <id>tech16</id>
+            <text>What is RAM in computer systems?</text>
+            <answers>
+                <answer id="a1">Read Access Memory</answer>
+                <answer id="a2">Random Access Memory</answer>
+                <answer id="a3">Rapid Application Memory</answer>
+                <answer id="a4">Remote Access Module</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>RAM (Random Access Memory) is volatile memory used for temporarily storing data that the CPU needs quick access to.</explanation>
+        </question>
+
+        <!-- Operating Systems -->
+        <question>
+            <id>tech17</id>
+            <text>What is the kernel in an operating system?</text>
+            <answers>
+                <answer id="a1">The computer case</answer>
+                <answer id="a2">Core component that manages system resources</answer>
+                <answer id="a3">User interface</answer>
+                <answer id="a4">Graphics card</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The kernel is the core of an operating system that manages hardware resources and provides services to applications.</explanation>
+        </question>
+
+        <!-- Programming Concepts -->
+        <question>
+            <id>tech18</id>
+            <text>What is recursion in programming?</text>
+            <answers>
+                <answer id="a1">Repeating code multiple times</answer>
+                <answer id="a2">Function that calls itself</answer>
+                <answer id="a3">Using loops</answer>
+                <answer id="a4">Error handling</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Recursion is a programming technique where a function calls itself to solve smaller instances of the same problem.</explanation>
+        </question>
+
+        <question>
+            <id>tech19</id>
+            <text>What is the Big O notation used for?</text>
+            <answers>
+                <answer id="a1">Measuring code complexity</answer>
+                <answer id="a2">Analyzing algorithm efficiency and performance</answer>
+                <answer id="a3">Counting lines of code</answer>
+                <answer id="a4">Measuring file sizes</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Big O notation describes the upper bound of algorithm complexity in terms of time and space requirements as input size grows.</explanation>
+        </question>
+
+        <!-- Data Structures -->
+        <question>
+            <id>tech20</id>
+            <text>What is a stack data structure?</text>
+            <answers>
+                <answer id="a1">Random access structure</answer>
+                <answer id="a2">Last In, First Out (LIFO) structure</answer>
+                <answer id="a3">First In, First Out (FIFO) structure</answer>
+                <answer id="a4">Sorted data structure</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>A stack follows LIFO principle where the last element added is the first one to be removed, like a stack of plates.</explanation>
+        </question>
+
+        <!-- Testing -->
+        <question>
+            <id>tech21</id>
+            <text>What is unit testing in software development?</text>
+            <answers>
+                <answer id="a1">Testing the entire application</answer>
+                <answer id="a2">Testing individual components or functions in isolation</answer>
+                <answer id="a3">Testing user interfaces</answer>
+                <answer id="a4">Testing network connections</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Unit testing involves testing individual components or functions separately to ensure they work correctly in isolation.</explanation>
+        </question>
+
+        <!-- Agile Development -->
+        <question>
+            <id>tech22</id>
+            <text>What is a sprint in Agile development?</text>
+            <answers>
+                <answer id="a1">Running fast</answer>
+                <answer id="a2">Short, time-boxed development iteration</answer>
+                <answer id="a3">Final testing phase</answer>
+                <answer id="a4">Project planning meeting</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>A sprint is a short, fixed time period (usually 1-4 weeks) during which a development team works on specific features or tasks.</explanation>
+        </question>
+
+        <!-- Microservices -->
+        <question>
+            <id>tech23</id>
+            <text>What is microservices architecture?</text>
+            <answers>
+                <answer id="a1">Very small applications</answer>
+                <answer id="a2">Architecture pattern with small, independent services</answer>
+                <answer id="a3">Miniature computers</answer>
+                <answer id="a4">Reduced functionality software</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Microservices architecture breaks down applications into small, independent services that communicate through APIs.</explanation>
+        </question>
+
+        <!-- IoT -->
+        <question>
+            <id>tech24</id>
+            <text>What does IoT stand for?</text>
+            <answers>
+                <answer id="a1">Internet of Technology</answer>
+                <answer id="a2">Internet of Things</answer>
+                <answer id="a3">Integration of Technology</answer>
+                <answer id="a4">International Technology Organization</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>IoT (Internet of Things) refers to network of physical devices connected to the internet, collecting and sharing data.</explanation>
+        </question>
+
+        <!-- Blockchain -->
+        <question>
+            <id>tech25</id>
+            <text>What is blockchain technology?</text>
+            <answers>
+                <answer id="a1">Type of chain link</answer>
+                <answer id="a2">Distributed ledger technology with cryptographic security</answer>
+                <answer id="a3">Block building game</answer>
+                <answer id="a4">Chain of command system</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Blockchain is a distributed database that maintains a continuously growing list of records (blocks) secured by cryptography.</explanation>
+        </question>
+
+        <!-- Electronics -->
+        <question>
+            <id>tech26</id>
+            <text>What is Ohm's Law?</text>
+            <answers>
+                <answer id="a1">V = I × R (Voltage = Current × Resistance)</answer>
+                <answer id="a2">P = V × I</answer>
+                <answer id="a3">F = ma</answer>
+                <answer id="a4">E = mc²</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>Ohm's Law states that voltage equals current multiplied by resistance (V = I × R), fundamental in electrical engineering.</explanation>
+        </question>
+
+        <!-- Automation -->
+        <question>
+            <id>tech27</id>
+            <text>What is industrial automation?</text>
+            <answers>
+                <answer id="a1">Manual factory work</answer>
+                <answer id="a2">Use of control systems and technology to operate industrial processes</answer>
+                <answer id="a3">Building factories</answer>
+                <answer id="a4">Industrial design</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Industrial automation uses control systems, computers, and robotics to handle industrial processes with minimal human intervention.</explanation>
+        </question>
+
+        <!-- 3D Printing -->
+        <question>
+            <id>tech28</id>
+            <text>What is additive manufacturing?</text>
+            <answers>
+                <answer id="a1">Adding workers to manufacturing</answer>
+                <answer id="a2">Building objects layer by layer (3D printing)</answer>
+                <answer id="a3">Adding features to products</answer>
+                <answer id="a4">Manufacturing additional products</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Additive manufacturing, commonly known as 3D printing, creates objects by adding material layer by layer from digital designs.</explanation>
+        </question>
+
+        <!-- Renewable Energy -->
+        <question>
+            <id>tech29</id>
+            <text>What is the main advantage of solar panels?</text>
+            <answers>
+                <answer id="a1">They work at night</answer>
+                <answer id="a2">They convert sunlight into clean electricity</answer>
+                <answer id="a3">They're always cheap</answer>
+                <answer id="a4">They work underwater</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Solar panels convert sunlight directly into electricity through photovoltaic cells, providing clean, renewable energy.</explanation>
+        </question>
+
+        <!-- CAD -->
+        <question>
+            <id>tech30</id>
+            <text>What does CAD stand for in engineering?</text>
+            <answers>
+                <answer id="a1">Computer Aided Design</answer>
+                <answer id="a2">Creative Art Development</answer>
+                <answer id="a3">Component Assembly Diagram</answer>
+                <answer id="a4">Computer Animation Display</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>CAD (Computer Aided Design) software is used for creating, modifying, and optimizing engineering designs and technical drawings.</explanation>
+        </question>
+
+        <!-- Project Management -->
+        <question>
+            <id>tech31</id>
+            <text>What is the critical path in project management?</text>
+            <answers>
+                <answer id="a1">Most important project goal</answer>
+                <answer id="a2">Longest sequence of dependent tasks determining project duration</answer>
+                <answer id="a3">Most difficult task</answer>
+                <answer id="a4">Path to the project office</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The critical path is the sequence of project activities that determines the minimum project duration; delays here delay the entire project.</explanation>
+        </question>
+
+        <!-- Quality Assurance -->
+        <question>
+            <id>tech32</id>
+            <text>What is ISO 9001?</text>
+            <answers>
+                <answer id="a1">A programming language</answer>
+                <answer id="a2">International quality management system standard</answer>
+                <answer id="a3">Type of computer processor</answer>
+                <answer id="a4">Software version</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>ISO 9001 is an international standard for quality management systems, helping organizations ensure consistent quality in products and services.</explanation>
+        </question>
+
+        <!-- Manufacturing -->
+        <question>
+            <id>tech33</id>
+            <text>What is lean manufacturing?</text>
+            <answers>
+                <answer id="a1">Manufacturing with fewer workers</answer>
+                <answer id="a2">Production methodology focused on minimizing waste</answer>
+                <answer id="a3">Making thin products</answer>
+                <answer id="a4">Low-cost manufacturing</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Lean manufacturing is a systematic approach to eliminating waste while maintaining or improving quality and efficiency.</explanation>
+        </question>
+
+        <!-- Sensors -->
+        <question>
+            <id>tech34</id>
+            <text>What is a sensor in engineering?</text>
+            <answers>
+                <answer id="a1">Person who senses things</answer>
+                <answer id="a2">Device that detects and responds to physical input</answer>
+                <answer id="a3">Security guard</answer>
+                <answer id="a4">Type of motor</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>A sensor is a device that detects changes in physical or environmental conditions and converts them into signals for measurement or control.</explanation>
+        </question>
+
+        <!-- Robotics -->
+        <question>
+            <id>tech35</id>
+            <text>What are the main components of a robot?</text>
+            <answers>
+                <answer id="a1">Only mechanical parts</answer>
+                <answer id="a2">Mechanical structure, sensors, actuators, and control system</answer>
+                <answer id="a3">Only electronics</answer>
+                <answer id="a4">Only software</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Robots typically consist of mechanical structure (body), sensors (input), actuators (movement), and control systems (brain/software).</explanation>
+        </question>
+
+        <!-- Materials Science -->
+        <question>
+            <id>tech36</id>
+            <text>What is the difference between steel and iron?</text>
+            <answers>
+                <answer id="a1">No difference</answer>
+                <answer id="a2">Steel is iron alloyed with carbon and other elements</answer>
+                <answer id="a3">Steel is pure iron</answer>
+                <answer id="a4">Iron is stronger than steel</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Steel is an alloy of iron with carbon (and often other elements), making it stronger and more versatile than pure iron.</explanation>
+        </question>
+
+        <!-- Control Systems -->
+        <question>
+            <id>tech37</id>
+            <text>What is a PID controller?</text>
+            <answers>
+                <answer id="a1">Personal Identification Device</answer>
+                <answer id="a2">Proportional-Integral-Derivative feedback control system</answer>
+                <answer id="a3">Programming Interface Device</answer>
+                <answer id="a4">Process Integration Diagram</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>PID controller is a feedback control mechanism that adjusts outputs based on Proportional, Integral, and Derivative calculations of error.</explanation>
+        </question>
+
+        <!-- Telecommunications -->
+        <question>
+            <id>tech38</id>
+            <text>What is 5G technology?</text>
+            <answers>
+                <answer id="a1">Fifth generation wireless technology</answer>
+                <answer id="a2">Five gigabytes of data</answer>
+                <answer id="a3">5 gigahertz frequency</answer>
+                <answer id="a4">Five-year technology plan</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>5G is the fifth generation of cellular network technology, offering faster speeds, lower latency, and more device connectivity than previous generations.</explanation>
+        </question>
+
+        <!-- Environmental Technology -->
+        <question>
+            <id>tech39</id>
+            <text>What is carbon capture technology?</text>
+            <answers>
+                <answer id="a1">Capturing carbon from trees</answer>
+                <answer id="a2">Technology to capture and store CO2 emissions</answer>
+                <answer id="a3">Making carbon products</answer>
+                <answer id="a4">Carbon fiber manufacturing</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Carbon capture technology captures carbon dioxide emissions from industrial processes and stores or utilizes them to reduce atmospheric CO2.</explanation>
+        </question>
+
+        <!-- Safety -->
+        <question>
+            <id>tech40</id>
+            <text>What is HAZOP in process safety?</text>
+            <answers>
+                <answer id="a1">Hazardous Operations</answer>
+                <answer id="a2">Hazard and Operability Study</answer>
+                <answer id="a3">Heavy Automated Operations</answer>
+                <answer id="a4">High Altitude Operations</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>HAZOP is a systematic technique for identifying potential hazards and operability issues in industrial processes.</explanation>
+        </question>
+
+        <!-- Innovation -->
+        <question>
+            <id>tech41</id>
+            <text>What is rapid prototyping?</text>
+            <answers>
+                <answer id="a1">Fast programming</answer>
+                <answer id="a2">Quick creation of physical models for testing concepts</answer>
+                <answer id="a3">Speed testing</answer>
+                <answer id="a4">Quick sketching</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Rapid prototyping uses various technologies to quickly create physical models of parts or products for testing and validation.</explanation>
+        </question>
+
+        <!-- Final question -->
+        <question>
+            <id>tech42</id>
+            <text>What is Industry 4.0?</text>
+            <answers>
+                <answer id="a1">Fourth industrial company</answer>
+                <answer id="a2">Fourth industrial revolution with smart, connected manufacturing</answer>
+                <answer id="a3">Industrial building number 4</answer>
+                <answer id="a4">Four types of industry</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Industry 4.0 represents the fourth industrial revolution, characterized by smart factories with interconnected machines, IoT, and data-driven manufacturing.</explanation>
+        </question>
+    </questions>
+</quiz>

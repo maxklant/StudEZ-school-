@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyEZ - Quiz Platform</title>
+</head>
+
+<body>
+    <div id="app">
+        <header class="header">
+            <nav class="navbar">
+                <div class="nav-brand">
+                    <button id="home-nav-btn" class="brand-btn">
+                        <h1>StudyEZ</h1>
+                        <span class="brand-subtitle">Quiz Platform</span>
+                    </button>
+                </div>
+
+                <div class="nav-links">
+                    <button id="home-nav" class="nav-btn active">
+                        <span class="nav-icon">🏠</span>
+                        <span class="nav-text">Home</span>
+                    </button>
+                    <button id="leaderboard-nav" class="nav-btn">
+                        <span class="nav-icon">🏆</span>
+                        <span class="nav-text">Ranglijst</span>
+                    </button>
+                    <button id="settings-nav" class="nav-btn">
+                        <span class="nav-icon">⚙️</span>
+                        <span class="nav-text">Instellingen</span>
+                    </button>
+                </div>
+
+                <button id="mobile-menu-btn" class="mobile-menu-btn">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+
+            <div class="streak-display">
+                <div id="streak-message" class="streak-message">🔥 Begin je streak door een quiz te halen!</div>
+                <div id="streak-stats" class="streak-stats">Punten: 0 | Huidige Streak: 0 | Langste: 0</div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div id="home-screen" class="screen active">
+                <h2>Beschikbare Quizzes</h2>
+                <div id="quiz-list" class="quiz-grid">
+                    <!-- Quiz cards will be populated here -->
+                </div>
+            </div>
+
+            <div id="quiz-screen" class="screen">
+                <div class="quiz-header">
+                    <h2 id="quiz-title"></h2>
+                    <div class="quiz-progress">
+                        <span id="question-counter">Vraag 1 van 10</span>
+                        <div class="progress-bar">
+                            <div id="progress-fill" class="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quiz-content">
+                    <div id="question-container">
+                        <h3 id="question-text"></h3>
+                        <div id="answers-container" class="answers-grid">
+                            <!-- Answer options will be populated here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quiz-controls">
+                    <button id="prev-btn" class="btn btn-secondary" disabled>Vorige</button>
+                    <button id="next-btn" class="btn btn-primary">Volgende</button>
+                    <button id="submit-btn" class="btn btn-success" style="display: none;">Quiz Indienen</button>
+                </div>
+            </div>
+
+            <div id="results-screen" class="screen">
+                <div class="results-container">
+                    <h2>Quiz Resultaten</h2>
+                    <div id="score-display" class="score-display">
+                        <div class="score-circle">
+                            <span id="score-percentage">0%</span>
+                        </div>
+                        <p id="score-text">Je hebt 0 van de 0 goed</p>
+                        <p id="pass-status" class="status"></p>
+                        <div id="streak-update" class="streak-update">
+                            <p id="streak-change-message"></p>
+                            <p id="new-streak-stats"></p>
+                            <p id="points-earned" class="points-earned"></p>
+                        </div>
+                    </div>
+
+                    <div id="detailed-results" class="detailed-results">
+                        <!-- Detailed question results will be shown here -->
+                    </div>
+
+                    <div class="results-actions">
+                        <button id="retry-btn" class="btn btn-primary">Opnieuw Proberen</button>
+                        <button id="home-btn" class="btn btn-secondary">Terug naar Home</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="leaderboard-screen" class="screen">
+                <div class="leaderboard-container">
+                    <h2>🏆 Leaderboard</h2>
+
+                    <div class="player-info">
+                        <div class="player-name-section">
+                            <label for="player-name-input">Jouw Naam:</label>
+                            <input type="text" id="player-name-input" class="player-name-input"
+                                placeholder="Voer je naam in" maxlength="20">
+                            <button id="save-name-btn" class="btn btn-small btn-primary">Opslaan</button>
+                        </div>
+                        <div id="current-player-rank" class="current-rank">
+                            Jouw Positie: #- | Punten: 0
+                        </div>
+                    </div>
+
+                    <div class="leaderboard-tabs">
+                        <button id="top-players-tab" class="tab-btn active">Top 10</button>
+                        <button id="around-me-tab" class="tab-btn">Rondom Mij</button>
+                    </div>
+
+                    <div id="leaderboard-content" class="leaderboard-content">
+                        <div class="leaderboard-list">
+                            <!-- Leaderboard entries will be populated here -->
+                        </div>
+                    </div>
+
+                    <div class="leaderboard-actions">
+                        <button id="add-sample-data-btn" class="btn btn-small btn-secondary">Voorbeelddata
+                            Toevoegen</button>
+                        <button id="clear-leaderboard-btn" class="btn btn-small btn-secondary">Ranglijst Wissen</button>
+                        <button id="leaderboard-home-btn" class="btn btn-primary">Terug naar Home</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="settings-screen" class="screen">
+                <div class="settings-container">
+                    <h2>⚙️ Settings</h2>
+
+                    <div class="settings-section">
+                        <h3>Spelersinformatie</h3>
+                        <div class="setting-item">
+                            <label for="settings-player-name">Spelersnaam:</label>
+                            <input type="text" id="settings-player-name" class="player-name-input"
+                                placeholder="Voer je naam in" maxlength="20">
+                            <button id="settings-save-name-btn" class="btn btn-small btn-primary">Naam Opslaan</button>
+                        </div>
+                    </div>
+
+                    <div class="settings-section">
+                        <h3>Gegevensbeheer</h3>
+                        <div class="setting-item">
+                            <button id="export-data-btn" class="btn btn-secondary">📁 Mijn Gegevens Exporteren</button>
+                            <p class="setting-description">Download je streak en voortgangsgegevens als een JSON bestand
+                            </p>
+                        </div>
+                        <div class="setting-item">
+                            <button id="reset-all-data-btn" class="btn btn-secondary">🗑️ Alle Gegevens Wissen</button>
+                            <p class="setting-description">Wis al je voortgang, streaks, punten en ranglijstpositie</p>
+                        </div>
+                    </div>
+
+                    <div class="settings-section">
+                        <h3>Statistieken</h3>
+                        <div id="user-stats" class="user-stats">
+                            <!-- User statistics will be populated here -->
+                        </div>
+                    </div>
+
+                    <div class="settings-actions">
+                        <button id="settings-home-btn" class="btn btn-primary">Terug naar Home</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

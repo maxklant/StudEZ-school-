@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <id>web-development-basics</id>
+    <title>Web Development Fundamentals</title>
+    <description>Basic concepts of web development including HTTP, browsers, and web technologies</description>
+    <difficulty>medium</difficulty>
+    <passingScore>75</passingScore>
+    <timeLimit>15</timeLimit> 
+    <questions>
+        <question>
+            <id>web1</id>
+            <text>What does HTTP stand for?</text>
+            <answers>
+                <answer id="a1">Hypertext Transfer Protocol</answer>
+                <answer id="a2">High Tech Transfer Protocol</answer>
+                <answer id="a3">Hyperlink Transfer Protocol</answer>
+                <answer id="a4">Home Transfer Protocol</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>HTTP stands for Hypertext Transfer Protocol, which is the foundation of data communication on the World Wide Web.</explanation>
+        </question>
+        <question>
+            <id>web2</id>
+            <text>Which HTTP status code indicates a successful request?</text>
+            <answers>
+                <answer id="a1">404</answer>
+                <answer id="a2">500</answer>
+                <answer id="a3">200</answer>
+                <answer id="a4">301</answer>
+            </answers>
+            <correctAnswer>a3</correctAnswer>
+            <explanation>HTTP status code 200 indicates that the request was successful and the server returned the requested resource.</explanation>
+        </question>
+        <question>
+            <id>web3</id>
+            <text>What is the purpose of the DOM?</text>
+            <answers>
+                <answer id="a1">To style web pages</answer>
+                <answer id="a2">To provide a programming interface for HTML documents</answer>
+                <answer id="a3">To handle server requests</answer>
+                <answer id="a4">To manage database connections</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The DOM (Document Object Model) provides a programming interface that allows scripts to dynamically access and update HTML documents.</explanation>
+        </question>
+        <question>
+            <id>web4</id>
+            <text>Which of the following is NOT a semantic HTML element?</text>
+            <answers>
+                <answer id="a1">&lt;header&gt;</answer>
+                <answer id="a2">&lt;nav&gt;</answer>
+                <answer id="a3">&lt;div&gt;</answer>
+                <answer id="a4">&lt;article&gt;</answer>
+            </answers>
+            <correctAnswer>a3</correctAnswer>
+            <explanation>The &lt;div&gt; element is a generic container with no semantic meaning, while elements like header, nav, and article provide semantic structure.</explanation>
+        </question>
+        <question>
+            <id>web5</id>
+            <text>What is responsive web design?</text>
+            <answers>
+                <answer id="a1">Designing websites that load quickly</answer>
+                <answer id="a2">Designing websites that adapt to different screen sizes</answer>
+                <answer id="a3">Designing websites with animations</answer>
+                <answer id="a4">Designing websites that respond to user input</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Responsive web design is an approach that makes web pages render well on different devices and screen sizes using flexible layouts, images, and CSS media queries.</explanation>
+        </question>
+    </questions>
+</quiz>

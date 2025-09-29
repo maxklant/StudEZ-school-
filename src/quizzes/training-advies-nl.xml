@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Training & Advies Quiz - Yellow Theme (#F2B300) -->
+<quiz>
+    <id>training-advies</id>
+    <title>Training &amp; Advies</title>
+    <description>Test je kennis van trainingsmethoden, onderwijspsychologie en adviesverlening</description>
+    <difficulty>gemiddeld</difficulty>
+    <passingScore>70</passingScore>
+    <timeLimit>25</timeLimit>
+    <theme>#F2B300</theme>
+    <category>Training &amp; Advies</category>
+    <questions>
+        <question>
+            <id>train1</id>
+            <text>Waarvoor wordt Bloom's Taxonomie gebruikt in het onderwijs?</text>
+            <answers>
+                <answer id="a1">Het classificeren van planten</answer>
+                <answer id="a2">Het categoriseren van leerdoelen en cognitieve vaardigheden</answer>
+                <answer id="a3">Het organiseren van studenten</answer>
+                <answer id="a4">Het plannen van lessen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Bloom's Taxonomie is een raamwerk voor het categoriseren van onderwijsdoelen en leerdoelen van basiskennis tot hogere denkvaardigheden.</explanation>
+        </question>
+
+        <question>
+            <id>train2</id>
+            <text>Wat zijn de hoofdleerstijlen volgens het VARK-model?</text>
+            <answers>
+                <answer id="a1">Snel, Gemiddeld, Langzaam</answer>
+                <answer id="a2">Visueel, Auditief, Lezen/Schrijven, Kinesthetisch</answer>
+                <answer id="a3">Beginner, Gevorderd, Expert</answer>
+                <answer id="a4">Individueel, Groep, Online</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>VARK identificeert vier leervoorkeuren: Visueel (zien), Auditief (horen), Lezen/Schrijven (tekst) en Kinesthetisch (doen/aanraken).</explanation>
+        </question>
+
+        <question>
+            <id>train3</id>
+            <text>Wat is scaffolding in het onderwijs?</text>
+            <answers>
+                <answer id="a1">Bouwconstructie</answer>
+                <answer id="a2">Tijdelijke ondersteuningsstructuur om leerlingen doelen te laten bereiken</answer>
+                <answer id="a3">Beloningssysteem</answer>
+                <answer id="a4">Testmethode</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Educatieve scaffolding biedt tijdelijke ondersteuning en begeleiding die geleidelijk wordt weggenomen naarmate leerlingen zelfstandiger worden.</explanation>
+        </question>
+
+        <question>
+            <id>train4</id>
+            <text>Wat is andragogie?</text>
+            <answers>
+                <answer id="a1">Studie van het leren van kinderen</answer>
+                <answer id="a2">Wetenschap van het leren van volwassenen</answer>
+                <answer id="a3">Onderwijstechnologie</answer>
+                <answer id="a4">Leerstoornissen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Andragogie is de methode en praktijk van het onderwijzen van volwassen leerlingen, gericht op hun unieke kenmerken en motivaties.</explanation>
+        </question>
+
+        <question>
+            <id>train5</id>
+            <text>Wat motiveert volwassen leerlingen het meest volgens onderzoek?</text>
+            <answers>
+                <answer id="a1">Alleen externe beloningen</answer>
+                <answer id="a2">Directe toepasbaarheid en relevantie voor hun doelen</answer>
+                <answer id="a3">Competitie met anderen</answer>
+                <answer id="a4">Angst voor falen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Volwassen leerlingen zijn het meest gemotiveerd wanneer ze directe waarde en relevantie zien voor hun persoonlijke of professionele doelen.</explanation>
+        </question>
+
+        <question>
+            <id>train6</id>
+            <text>Wat is het ADDIE-model in instructieontwerp?</text>
+            <answers>
+                <answer id="a1">Analyse, Ontwerp, Ontwikkeling, Implementatie, Evaluatie</answer>
+                <answer id="a2">Beoordelen, Leveren, Sturen, Implementeren, Uitvoeren</answer>
+                <answer id="a3">Analyseren, Distribueren, Ontwikkelen, Integreren, Evalueren</answer>
+                <answer id="a4">Toewijzen, Ontwerpen, Inzetten, Installeren, Eindigen</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>ADDIE is een systematisch instructieontwerp raamwerk: Analyseer behoeften, Ontwerp oplossing, Ontwikkel materialen, Implementeer training, Evalueer effectiviteit.</explanation>
+        </question>
+
+        <question>
+            <id>train7</id>
+            <text>Wat is het 70-20-10 leermodel?</text>
+            <answers>
+                <answer id="a1">Verdeling van testscores</answer>
+                <answer id="a2">70% ervaringsleren, 20% sociaal leren, 10% formele training</answer>
+                <answer id="a3">Tijdstoewijzing voor training</answer>
+                <answer id="a4">Budgetverdeling</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Het 70-20-10 model suggereert dat mensen 70% leren door ervaring, 20% van anderen en 10% uit formele cursussen.</explanation>
+        </question>
+
+        <question>
+            <id>train8</id>
+            <text>Wat is het verschil tussen coaching en mentoring?</text>
+            <answers>
+                <answer id="a1">Geen verschil</answer>
+                <answer id="a2">Coaching is taakgericht en kortetermijn; mentoring is relatiegericht en langetermijn</answer>
+                <answer id="a3">Coaching is duurder</answer>
+                <answer id="a4">Mentoring is alleen voor jongeren</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Coaching richt zich meestal op specifieke vaardigheden/prestaties over kortere perioden, terwijl mentoring bredere ontwikkeling behelst door langetermijnrelaties.</explanation>
+        </question>
+
+        <question>
+            <id>train9</id>
+            <text>Wat is het GROW-model in coaching?</text>
+            <answers>
+                <answer id="a1">Groei, Resultaten, Opties, Wil</answer>
+                <answer id="a2">Doel, Realiteit, Opties, Wil/Weg vooruit</answer>
+                <answer id="a3">Begeleiden, Reageren, Organiseren, Winnen</answer>
+                <answer id="a4">Genereren, Beoordelen, Optimaliseren, Werken</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>GROW is een coaching raamwerk: Doel (wat te bereiken), Realiteit (huidige situatie), Opties (mogelijke acties), Wil (toewijding aan actie).</explanation>
+        </question>
+
+        <question>
+            <id>train10</id>
+            <text>Wat is formatieve beoordeling?</text>
+            <answers>
+                <answer id="a1">Eindexamen</answer>
+                <answer id="a2">Doorlopende evaluatie tijdens het leerproces</answer>
+                <answer id="a3">Formele certificering</answer>
+                <answer id="a4">Jaarlijkse beoordeling</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Formatieve beoordeling biedt doorlopende feedback tijdens het leerproces om prestaties te verbeteren voor de definitieve evaluatie.</explanation>
+        </question>
+    </questions>
+</quiz>

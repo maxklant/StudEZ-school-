@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Corporate Quiz - Blue Theme (#39B9EC) -->
+<quiz>
+    <id>corporate-business</id>
+    <title>Corporate &amp; Business Management</title>
+    <description>Test je kennis van bedrijfsstrategie, management en zakelijke fundamenten</description>
+    <difficulty>gemiddeld</difficulty>
+    <passingScore>70</passingScore>
+    <timeLimit>25</timeLimit>
+    <theme>#39B9EC</theme>
+    <category>Corporate</category>
+    <questions>
+        <!-- Management & Leadership -->
+        <question>
+            <id>corp1</id>
+            <text>Wat is het primaire doel van een SWOT-analyse in bedrijfsstrategie?</text>
+            <answers>
+                <answer id="a1">Het analyseren van Sterktes, Zwaktes, Kansen en Bedreigingen</answer>
+                <answer id="a2">Het berekenen van financiële rendementen</answer>
+                <answer id="a3">Het beheren van werknemersprestaties</answer>
+                <answer id="a4">Het ontwerpen van marketingcampagnes</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>SWOT-analyse evalueert interne Sterktes en Zwaktes naast externe Kansen en Bedreigingen om strategische besluitvorming te ondersteunen.</explanation>
+        </question>
+        
+        <question>
+            <id>corp2</id>
+            <text>Welke leiderschapsstijl geeft werknemers veel autonomie en minimaal toezicht?</text>
+            <answers>
+                <answer id="a1">Autocratisch</answer>
+                <answer id="a2">Democratisch</answer>
+                <answer id="a3">Laissez-faire</answer>
+                <answer id="a4">Transformationeel</answer>
+            </answers>
+            <correctAnswer>a3</correctAnswer>
+            <explanation>Laissez-faire leiderschap biedt maximale vrijheid aan werknemers, met minimale sturing of controle van de leider.</explanation>
+        </question>
+
+        <question>
+            <id>corp3</id>
+            <text>Waar staat ROI voor in zakelijke meetwaarden?</text>
+            <answers>
+                <answer id="a1">Return on Investment (Rendement op Investering)</answer>
+                <answer id="a2">Rate of Interest (Rentepercentage)</answer>
+                <answer id="a3">Risk of Inflation (Inflatierisico)</answer>
+                <answer id="a4">Revenue over Income (Omzet over Inkomen)</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>ROI (Return on Investment) meet de efficiëntie van een investering door de winst of het verlies te vergelijken met de kosten.</explanation>
+        </question>
+
+        <question>
+            <id>corp4</id>
+            <text>Welke van de volgende behoort NIET tot Porter's Five Forces?</text>
+            <answers>
+                <answer id="a1">Dreiging van nieuwe toetreders</answer>
+                <answer id="a2">Onderhandelingsmacht van leveranciers</answer>
+                <answer id="a3">Maatschappelijk verantwoord ondernemen</answer>
+                <answer id="a4">Concurrentiestrijd</answer>
+            </answers>
+            <correctAnswer>a3</correctAnswer>
+            <explanation>Porter's Five Forces omvatten: concurrentiestrijd, dreiging van nieuwe toetreders, dreiging van substituten, onderhandelingsmacht van kopers en leveranciers.</explanation>
+        </question>
+
+        <question>
+            <id>corp5</id>
+            <text>Wat is het primaire doel van verandermanagement in organisaties?</text>
+            <answers>
+                <answer id="a1">Winst onmiddellijk verhogen</answer>
+                <answer id="a2">Organisatorische transities succesvol implementeren</answer>
+                <answer id="a3">Personeelsbestand verminderen</answer>
+                <answer id="a4">Alle processen automatiseren</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Verandermanagement helpt organisaties en individuen succesvol over te gaan van de huidige situatie naar de gewenste toekomstige situatie.</explanation>
+        </question>
+
+        <!-- Finance & Accounting -->
+        <question>
+            <id>corp6</id>
+            <text>Wat is het verschil tussen brutowinst en nettowinst?</text>
+            <answers>
+                <answer id="a1">Er is geen verschil</answer>
+                <answer id="a2">Brutowinst omvat alle kosten, nettowinst niet</answer>
+                <answer id="a3">Nettowinst houdt rekening met alle kosten, brutowinst trekt alleen kostprijs van verkochte goederen af</answer>
+                <answer id="a4">Brutowinst is na belastingen, nettowinst is voor belastingen</answer>
+            </answers>
+            <correctAnswer>a3</correctAnswer>
+            <explanation>Brutowinst = Omzet - Kostprijs van verkochte goederen, terwijl Nettowinst = Brutowinst - Alle andere kosten (operationeel, rente, belastingen).</explanation>
+        </question>
+
+        <question>
+            <id>corp7</id>
+            <text>Wat meet EBITDA?</text>
+            <answers>
+                <answer id="a1">Winst voor rente, belastingen, afschrijvingen en amortisatie</answer>
+                <answer id="a2">Personeelsvoordelen, verzekeringen, training, ontwikkeling en administratie</answer>
+                <answer id="a3">Economische bedrijfsinkomsten belastingaftrek analyse</answer>
+                <answer id="a4">Geschat budget voor internationale handelsontwikkelingsactiviteiten</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>EBITDA is een maatstaf voor operationele prestaties die de effecten van financiering, boekhoudkundige en belastingbeslissingen uitsluit.</explanation>
+        </question>
+
+        <question>
+            <id>corp8</id>
+            <text>Welke financiële overzicht toont de activa, passiva en eigen vermogen van een bedrijf?</text>
+            <answers>
+                <answer id="a1">Winst- en verliesrekening</answer>
+                <answer id="a2">Balans</answer>
+                <answer id="a3">Kasstroomoverzicht</answer>
+                <answer id="a4">Overzicht van ingehouden winsten</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>De balans geeft een momentopname van de financiële positie van een bedrijf op een specifiek moment, met wat het bezit (activa) en verschuldigd is (passiva), plus eigen vermogen.</explanation>
+        </question>
+
+        <!-- Marketing & Sales -->
+        <question>
+            <id>corp9</id>
+            <text>Wat zijn de 4 P's van de marketingmix?</text>
+            <answers>
+                <answer id="a1">Product, Prijs, Plaats, Promotie</answer>
+                <answer id="a2">Mensen, Proces, Fysiek bewijs, Prijs</answer>
+                <answer id="a3">Planning, Prestatie, Winst, Positionering</answer>
+                <answer id="a4">Productie, Prijsstelling, Verpakking, Publiciteit</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>De traditionele marketingmix bestaat uit Product (wat je verkoopt), Prijs (hoeveel), Plaats (waar je verkoopt) en Promotie (hoe je communiceert).</explanation>
+        </question>
+
+        <question>
+            <id>corp10</id>
+            <text>Wat is B2B in zakelijke terminologie?</text>
+            <answers>
+                <answer id="a1">Business to Business (Bedrijf naar Bedrijf)</answer>
+                <answer id="a2">Back to Basics (Terug naar de basis)</answer>
+                <answer id="a3">Buy to Build (Kopen om te bouwen)</answer>
+                <answer id="a4">Brand to Brand (Merk naar merk)</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>B2B (Business to Business) verwijst naar transacties of relaties tussen bedrijven, in plaats van tussen een bedrijf en individuele consumenten (B2C).</explanation>
+        </question>
+    </questions>
+</quiz>

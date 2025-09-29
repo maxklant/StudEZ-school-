@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Zorg &amp; Welzijn Quiz - Pink Theme (#E72B76) -->
+<quiz>
+    <id>zorg-welzijn</id>
+    <title>Zorg &amp; Welzijn</title>
+    <description>Test je kennis over zorgverlening, welzijn en gezondheidszorg</description>
+    <difficulty>medium</difficulty>
+    <passingScore>70</passingScore>
+    <timeLimit>25</timeLimit>
+    <theme>#E72B76</theme>
+    <category>Zorg &amp; Welzijn</category>
+    <questions>
+        <!-- Basisprincipes van de zorg -->
+        <question>
+            <id>zorg1</id>
+            <text>Wat is de definitie van evidence-based practice in de zorg?</text>
+            <answers>
+                <answer id="a1">Zorg gebaseerd op traditie</answer>
+                <answer id="a2">Zorg gebaseerd op wetenschappelijk onderzoek en bewijs</answer>
+                <answer id="a3">Zorg gebaseerd op intuïtie</answer>
+                <answer id="a4">Zorg gebaseerd op kosten</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Evidence-based practice integreert het beste onderzoeksbewijs met klinische expertise en patiëntvoorkeuren voor optimale zorgverlening.</explanation>
+        </question>
+
+        <question>
+            <id>zorg2</id>
+            <text>Wat houdt patiëntgerichte zorg in?</text>
+            <answers>
+                <answer id="a1">De patiënt laten beslissen over alles</answer>
+                <answer id="a2">Zorg die respecteert en reageert op individuele patiëntvoorkeuren en behoeften</answer>
+                <answer id="a3">Goedkope zorg</answer>
+                <answer id="a4">Snelle zorg</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Patiëntgerichte zorg stelt de patiënt centraal en houdt rekening met hun waarden, voorkeuren en behoeften bij alle zorgbeslissingen.</explanation>
+        </question>
+
+        <question>
+            <id>zorg3</id>
+            <text>Wat is de primaire preventie in de gezondheidszorg?</text>
+            <answers>
+                <answer id="a1">Behandeling van bestaande ziekten</answer>
+                <answer id="a2">Voorkoming van ziekten voordat ze ontstaan</answer>
+                <answer id="a3">Vroege opsporing van ziekten</answer>
+                <answer id="a4">Revalidatie na ziekte</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Primaire preventie richt zich op het voorkomen van ziekten door risicofactoren aan te pakken voordat de ziekte ontstaat.</explanation>
+        </question>
+
+        <!-- Ethiek in de zorg -->
+        <question>
+            <id>zorg4</id>
+            <text>Wat is informed consent (geïnformeerde toestemming)?</text>
+            <answers>
+                <answer id="a1">Automatische toestemming</answer>
+                <answer id="a2">Toestemming gegeven na volledige informatie over behandeling en risico's</answer>
+                <answer id="a3">Toestemming van familie</answer>
+                <answer id="a4">Schriftelijke toestemming</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Informed consent betekent dat patiënten volledig geïnformeerd zijn over hun behandeling, risico's en alternatieven voordat ze toestemming geven.</explanation>
+        </question>
+
+        <question>
+            <id>zorg5</id>
+            <text>Wat houdt het principe van autonomie in de zorgethiek in?</text>
+            <answers>
+                <answer id="a1">De zorgverlener beslist alles</answer>
+                <answer id="a2">Het recht van patiënten om eigen keuzes te maken</answer>
+                <answer id="a3">Familie beslist voor de patiënt</answer>
+                <answer id="a4">De overheid beslist over zorg</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Autonomie respecteert het recht van patiënten om zelfstandig beslissingen te nemen over hun eigen zorg en leven.</explanation>
+        </question>
+
+        <!-- Communicatie in de zorg -->
+        <question>
+            <id>zorg6</id>
+            <text>Wat is actief luisteren in de zorgverlening?</text>
+            <answers>
+                <answer id="a1">Luisteren zonder te onderbreken</answer>
+                <answer id="a2">Volledig aandacht geven, begrijpen en reageren op wat de patiënt zegt</answer>
+                <answer id="a3">Alleen luisteren naar medische klachten</answer>
+                <answer id="a4">Snel luisteren om tijd te besparen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Actief luisteren omvat volledige aandacht, empathie, begrip en gepaste reacties om effectieve communicatie met patiënten te bevorderen.</explanation>
+        </question>
+
+        <question>
+            <id>zorg7</id>
+            <text>Waarom is empathie belangrijk in de zorgverlening?</text>
+            <answers>
+                <answer id="a1">Het maakt geen verschil</answer>
+                <answer id="a2">Het helpt vertrouwen op te bouwen en betere zorg te verlenen</answer>
+                <answer id="a3">Het is een vereiste van de werkgever</answer>
+                <answer id="a4">Het bespaart tijd</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Empathie helpt zorgverleners de emoties en perspectieven van patiënten te begrijpen, wat leidt tot betere zorgkwaliteit en patiënttevredenheid.</explanation>
+        </question>
+
+        <!-- Kwaliteit en veiligheid -->
+        <question>
+            <id>zorg8</id>
+            <text>Wat is het doel van kwaliteitsverbetering in de zorg?</text>
+            <answers>
+                <answer id="a1">Kosten verlagen</answer>
+                <answer id="a2">Veiligere, effectievere en patiëntgerichte zorg leveren</answer>
+                <answer id="a3">Meer patiënten behandelen</answer>
+                <answer id="a4">Minder personeel gebruiken</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Kwaliteitsverbetering richt zich op het systematisch verbeteren van zorgprocessen om betere uitkomsten voor patiënten te bereiken.</explanation>
+        </question>
+
+        <question>
+            <id>zorg9</id>
+            <text>Wat is een incident in de zorgverlening?</text>
+            <answers>
+                <answer id="a1">Een normale gebeurtenis</answer>
+                <answer id="a2">Een ongewenste gebeurtenis die de patiëntveiligheid kan bedreigen</answer>
+                <answer id="a3">Een geplande procedure</answer>
+                <answer id="a4">Een succesvolle behandeling</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Een incident is elke gebeurtenis die afwijkt van de normale zorgverlening en mogelijk schade aan patiënten kan veroorzaken.</explanation>
+        </question>
+
+        <!-- Multidisciplinaire samenwerking -->
+        <question>
+            <id>zorg10</id>
+            <text>Wat is multidisciplinaire samenwerking in de zorg?</text>
+            <answers>
+                <answer id="a1">Werken met meerdere patiënten tegelijk</answer>
+                <answer id="a2">Samenwerking tussen verschillende zorgdisciplines voor optimale patiëntenzorg</answer>
+                <answer id="a3">Werken op meerdere afdelingen</answer>
+                <answer id="a4">Samenwerking met familie</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Multidisciplinaire samenwerking brengt expertise van verschillende vakgebieden samen om de beste zorg voor patiënten te realiseren.</explanation>
+        </question>
+
+        <!-- Ouderenzorg -->
+        <question>
+            <id>zorg11</id>
+            <text>Wat is geriatrische zorg?</text>
+            <answers>
+                <answer id="a1">Zorg voor kinderen</answer>
+                <answer id="a2">Gespecialiseerde zorg voor ouderen</answer>
+                <answer id="a3">Zorg voor chronische patiënten</answer>
+                <answer id="a4">Algemene zorg</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Geriatrische zorg richt zich specifiek op de gezondheidsbehoeften en uitdagingen van oudere volwassenen.</explanation>
+        </question>
+
+        <question>
+            <id>zorg12</id>
+            <text>Wat is dementie?</text>
+            <answers>
+                <answer id="a1">Een normale veroudering</answer>
+                <answer id="a2">Een syndroom met achteruitgang van cognitieve functies</answer>
+                <answer id="a3">Een tijdelijke geheugenstoornis</answer>
+                <answer id="a4">Een emotionele stoornis</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Dementie is een syndroom gekenmerkt door progressieve achteruitgang van geheugen, denken en andere cognitieve functies.</explanation>
+        </question>
+
+        <!-- Geestelijke gezondheidszorg -->
+        <question>
+            <id>zorg13</id>
+            <text>Wat is het verschil tussen psycholoog en psychiater?</text>
+            <answers>
+                <answer id="a1">Er is geen verschil</answer>
+                <answer id="a2">Psychiater is arts en kan medicijnen voorschrijven, psycholoog niet</answer>
+                <answer id="a3">Psycholoog is duurder</answer>
+                <answer id="a4">Psychiater werkt alleen met kinderen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Een psychiater is een medisch specialist die medicatie kan voorschrijven, terwijl een psycholoog gespecialiseerd is in psychotherapie en diagnostiek.</explanation>
+        </question>
+
+        <question>
+            <id>zorg14</id>
+            <text>Wat is cognitieve gedragstherapie (CGT)?</text>
+            <answers>
+                <answer id="a1">Medicijnbehandeling</answer>
+                <answer id="a2">Therapie die richt op verandering van denkpatronen en gedrag</answer>
+                <answer id="a3">Operatieve behandeling</answer>
+                <answer id="a4">Fysieke therapie</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>CGT is een vorm van psychotherapie die negatieve denkpatronen en gedragingen helpt identificeren en veranderen.</explanation>
+        </question>
+
+        <!-- Revalidatie en fysiotherapie -->
+        <question>
+            <id>zorg15</id>
+            <text>Wat is het doel van revalidatie?</text>
+            <answers>
+                <answer id="a1">Geld verdienen</answer>
+                <answer id="a2">Optimale functionele herstel en zelfredzaamheid bevorderen</answer>
+                <answer id="a3">Pijn veroorzaken</answer>
+                <answer id="a4">Tijd verdrijven</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Revalidatie helpt mensen hun maximale fysieke, mentale en sociale mogelijkheden te herstellen na ziekte of verwonding.</explanation>
+        </question>
+
+        <!-- Chronische ziekten -->
+        <question>
+            <id>zorg16</id>
+            <text>Wat kenmerkt chronische ziekten?</text>
+            <answers>
+                <answer id="a1">Ze genezen snel</answer>
+                <answer id="a2">Ze duren lang en vereisen continue zorg</answer>
+                <answer id="a3">Ze zijn altijd dodelijk</answer>
+                <answer id="a4">Ze komen alleen bij ouderen voor</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Chronische ziekten zijn langdurige aandoeningen die meestal niet volledig genezen maar wel beheerst kunnen worden.</explanation>
+        </question>
+
+        <!-- Pijnmanagement -->
+        <question>
+            <id>zorg17</id>
+            <text>Wat is holistische pijnbehandeling?</text>
+            <answers>
+                <answer id="a1">Alleen medicijnen gebruiken</answer>
+                <answer id="a2">Behandeling van fysieke, emotionele en sociale aspecten van pijn</answer>
+                <answer id="a3">Pijn negeren</answer>
+                <answer id="a4">Alleen chirurgie</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Holistische pijnbehandeling kijkt naar alle aspecten van pijn en gebruikt verschillende benaderingen voor optimale pijnverlichting.</explanation>
+        </question>
+
+        <!-- Infectiepreventie -->
+        <question>
+            <id>zorg18</id>
+            <text>Wat is de belangrijkste maatregel voor infectiepreventie?</text>
+            <answers>
+                <answer id="a1">Antibiotica gebruiken</answer>
+                <answer id="a2">Handen wassen/desinfecteren</answer>
+                <answer id="a3">Maskers dragen</answer>
+                <answer id="a4">Patiënten isoleren</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Correcte handhygiëne is de meest effectieve maatregel om de verspreiding van infecties in zorginstellingen te voorkomen.</explanation>
+        </question>
+
+        <!-- Voeding en gezondheid -->
+        <question>
+            <id>zorg19</id>
+            <text>Waarom is goede voeding belangrijk bij ziekte?</text>
+            <answers>
+                <answer id="a1">Het maakt geen verschil</answer>
+                <answer id="a2">Het ondersteunt herstel en helpt het immuunsysteem</answer>
+                <answer id="a3">Het is goedkoper</answer>
+                <answer id="a4">Het smaakt beter</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Adequate voeding levert essentiële nutriënten die nodig zijn voor genezing, immuunfunctie en algemene gezondheid.</explanation>
+        </question>
+
+        <!-- Palliatieve zorg -->
+        <question>
+            <id>zorg20</id>
+            <text>Wat is palliatieve zorg?</text>
+            <answers>
+                <answer id="a1">Curatieve behandeling</answer>
+                <answer id="a2">Zorg gericht op comfort en kwaliteit van leven bij ernstige ziekte</answer>
+                <answer id="a3">Preventieve zorg</answer>
+                <answer id="a4">Acute zorg</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Palliatieve zorg richt zich op het verlichten van symptomen en verbeteren van kwaliteit van leven voor patiënten met levensbedreigende ziekten.</explanation>
+        </question>
+
+        <!-- Medicijnveiligheid -->
+        <question>
+            <id>zorg21</id>
+            <text>Wat is medicatiereconciliatie?</text>
+            <answers>
+                <answer id="a1">Medicijnen opnieuw voorschrijven</answer>
+                <answer id="a2">Systematisch vergelijken van medicijnen bij overgang tussen zorgvormen</answer>
+                <answer id="a3">Medicijnen tellen</answer>
+                <answer id="a4">Medicijnen vernietigen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Medicatiereconciliatie voorkomt medicatiefouten door medicatielijsten te vergelijken en te actualiseren bij overgangen in de zorg.</explanation>
+        </question>
+
+        <!-- Eerste hulp -->
+        <question>
+            <id>zorg22</id>
+            <text>Wat is de juiste volgorde bij reanimatie (BHV)?</text>
+            <answers>
+                <answer id="a1">Beademing, hartmassage, defibrillatie</answer>
+                <answer id="a2">Borstcompressies, beademing (30:2 ratio)</answer>
+                <answer id="a3">Eerst medicijnen geven</answer>
+                <answer id="a4">Eerst ziekenhuis bellen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Moderne reanimatie begint met 30 borstcompressies gevolgd door 2 beademingen, met prioriteit voor ononderbroken hartmassage.</explanation>
+        </question>
+
+        <!-- Zorgethiek -->
+        <question>
+            <id>zorg23</id>
+            <text>Wat is het principe van 'non-maleficence' in de zorgethiek?</text>
+            <answers>
+                <answer id="a1">Altijd helpen</answer>
+                <answer id="a2">Geen schade toebrengen</answer>
+                <answer id="a3">Eerlijk zijn</answer>
+                <answer id="a4">Rechtvaardig zijn</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>'Non-maleficence' betekent 'geen schade toebrengen' - het principe dat zorgverleners hun patiënten niet mogen schaden.</explanation>
+        </question>
+
+        <!-- Gehandicaptenzorg -->
+        <question>
+            <id>zorg24</id>
+            <text>Wat is het sociale model van handicap?</text>
+            <answers>
+                <answer id="a1">Handicap is alleen een medisch probleem</answer>
+                <answer id="a2">Handicap wordt veroorzaakt door sociale barrières, niet alleen door beperking</answer>
+                <answer id="a3">Handicap is niet echt</answer>
+                <answer id="a4">Handicap is genetisch bepaald</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Het sociale model stelt dat handicap ontstaat door maatschappelijke barrières en attitudes, niet alleen door individuele beperkingen.</explanation>
+        </question>
+
+        <!-- Jeugdzorg -->
+        <question>
+            <id>zorg25</id>
+            <text>Wat is het belang van early intervention in de jeugdzorg?</text>
+            <answers>
+                <answer id="a1">Het is goedkoper</answer>
+                <answer id="a2">Vroege hulp voorkomt verergering van problemen</answer>
+                <answer id="a3">Het is makkelijker</answer>
+                <answer id="a4">Ouders vragen erom</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Vroege interventie kan problemen voorkomen of verminderen voordat ze zich ontwikkelen tot meer complexe situaties.</explanation>
+        </question>
+
+        <!-- Thuiszorg -->
+        <question>
+            <id>zorg26</id>
+            <text>Wat is het voordeel van thuiszorg boven intramurale zorg?</text>
+            <answers>
+                <answer id="a1">Het is altijd goedkoper</answer>
+                <answer id="a2">Mensen kunnen in hun vertrouwde omgeving blijven</answer>
+                <answer id="a3">Er zijn meer zorgverleners beschikbaar</answer>
+                <answer id="a4">De zorg is intensiever</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Thuiszorg stelt mensen in staat om in hun eigen omgeving te blijven, wat vaak bijdraagt aan welzijn en kwaliteit van leven.</explanation>
+        </question>
+
+        <!-- Technologie in de zorg -->
+        <question>
+            <id>zorg27</id>
+            <text>Wat is e-health?</text>
+            <answers>
+                <answer id="a1">Elektronische spelletjes</answer>
+                <answer id="a2">Gebruik van ICT voor gezondheidszorg en welzijn</answer>
+                <answer id="a3">Elektronische apparaten</answer>
+                <answer id="a4">E-mail tussen patiënten</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>E-health omvat alle toepassingen van informatie- en communicatietechnologie in de gezondheidszorg en het welzijn.</explanation>
+        </question>
+
+        <!-- Culturele competentie -->
+        <question>
+            <id>zorg28</id>
+            <text>Wat is cultureel competente zorg?</text>
+            <answers>
+                <answer id="a1">Zorg alleen voor eigen cultuur</answer>
+                <answer id="a2">Zorg die rekening houdt met culturele achtergronden en behoeften</answer>
+                <answer id="a3">Zorg in verschillende talen</answer>
+                <answer id="a4">Zorg door buitenlandse zorgverleners</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Cultureel competente zorg respecteert en integreert culturele waarden, overtuigingen en praktijken van patiënten in de zorgverlening.</explanation>
+        </question>
+
+        <!-- Stress en burnout -->
+        <question>
+            <id>zorg29</id>
+            <text>Wat zijn tekenen van burnout bij zorgverleners?</text>
+            <answers>
+                <answer id="a1">Meer energie hebben</answer>
+                <answer id="a2">Emotionele uitputting, cynisme en verminderde effectiviteit</answer>
+                <answer id="a3">Beter slapen</answer>
+                <answer id="a4">Meer patiënten willen helpen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Burnout kenmerkt zich door emotionele uitputting, depersonalisatie/cynisme en een gevoel van verminderde persoonlijke bekwaamheid.</explanation>
+        </question>
+
+        <!-- Kwaliteitsmanagement -->
+        <question>
+            <id>zorg30</id>
+            <text>Wat is de PDCA-cyclus in kwaliteitsverbetering?</text>
+            <answers>
+                <answer id="a1">Een medische procedure</answer>
+                <answer id="a2">Plan-Do-Check-Act: systematische verbetermethode</answer>
+                <answer id="a3">Een soort medicijn</answer>
+                <answer id="a4">Een type therapie</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>PDCA is een iteratieve methode voor continue verbetering: Plan (plannen), Do (uitvoeren), Check (controleren), Act (handelen/aanpassen).</explanation>
+        </question>
+
+        <!-- Preventie -->
+        <question>
+            <id>zorg31</id>
+            <text>Wat is secundaire preventie?</text>
+            <answers>
+                <answer id="a1">Voorkoming van ziekte</answer>
+                <answer id="a2">Vroege opsporing en behandeling van ziekte</answer>
+                <answer id="a3">Revalidatie na ziekte</answer>
+                <answer id="a4">Medicijnen voorschrijven</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Secundaire preventie richt zich op vroege detectie van ziekten om te voorkomen dat ze erger worden.</explanation>
+        </question>
+
+        <!-- Zorgplanning -->
+        <question>
+            <id>zorg32</id>
+            <text>Wat is een zorgplan?</text>
+            <answers>
+                <answer id="a1">Een lijst van medicijnen</answer>
+                <answer id="a2">Een systematisch overzicht van zorgdoelen en interventies</answer>
+                <answer id="a3">Een roostersysteem</answer>
+                <answer id="a4">Een financieel plan</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Een zorgplan beschrijft de zorgdoelen, benodigde interventies en evaluatiemomenten voor individuele patiënten.</explanation>
+        </question>
+
+        <!-- Ethische dilemma's -->
+        <question>
+            <id>zorg33</id>
+            <text>Wat doe je als patiënt weigert noodzakelijke behandeling?</text>
+            <answers>
+                <answer id="a1">Dwingen tot behandeling</answer>
+                <answer id="a2">Respecteren van autonomie, maar wel goed informeren en begeleiden</answer>
+                <answer id="a3">Familie laten beslissen</answer>
+                <answer id="a4">Negeren van de patiënt</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Respect voor patiëntautonomie betekent het recht op weigering respecteren, maar wel zorgen voor adequate informatie en ondersteuning.</explanation>
+        </question>
+
+        <!-- Zorgverzekering -->
+        <question>
+            <id>zorg34</id>
+            <text>Wat is het eigen risico in de zorgverzekering?</text>
+            <answers>
+                <answer id="a1">Geld dat je krijgt</answer>
+                <answer id="a2">Bedrag dat je zelf betaalt voordat verzekering dekt</answer>
+                <answer id="a3">Maandelijkse premie</answer>
+                <answer id="a4">Bonus van verzekeraar</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Het eigen risico is het bedrag dat verzekeringen jaarlijks zelf moeten betalen aan zorgkosten voordat de verzekering begint te vergoeden.</explanation>
+        </question>
+
+        <!-- Hygiëne -->
+        <question>
+            <id>zorg35</id>
+            <text>Wat is standaardhygiëne in de zorg?</text>
+            <answers>
+                <answer id="a1">Alleen handen wassen</answer>
+                <answer id="a2">Basismaatregelen die bij alle patiënten toegepast worden</answer>
+                <answer id="a3">Speciale maatregelen voor besmettelijke patiënten</answer>
+                <answer id="a4">Schoonmaken van de ruimte</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Standaardhygiëne omvat basisvoorzorgsmaatregelen die bij alle patiënten worden toegepast, ongeacht hun infectiestatus.</explanation>
+        </question>
+
+        <!-- Motivatie -->
+        <question>
+            <id>zorg36</id>
+            <text>Wat is motivational interviewing?</text>
+            <answers>
+                <answer id="a1">Een sollicitatiegesprek</answer>
+                <answer id="a2">Gesprekstechniek om intrinsieke motivatie voor verandering te versterken</answer>
+                <answer id="a3">Een vorm van therapie</answer>
+                <answer id="a4">Een test</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Motivational interviewing is een patiëntgerichte gespreksstijl die mensen helpt hun eigen motivatie en toewijding voor verandering te ontwikkelen.</explanation>
+        </question>
+
+        <!-- Zorgtechnologie -->
+        <question>
+            <id>zorg37</id>
+            <text>Wat zijn hulpmiddelen in de zorg?</text>
+            <answers>
+                <answer id="a1">Alleen medische apparaten</answer>
+                <answer id="a2">Producten die zelfstandigheid en kwaliteit van leven ondersteunen</answer>
+                <answer id="a3">Alleen computeraystemen</answer>
+                <answer id="a4">Alleen medicijnen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Hulpmiddelen zijn producten, instrumenten en systemen die beperkte functies compenseren en zelfstandigheid bevorderen.</explanation>
+        </question>
+
+        <!-- Teamwork -->
+        <question>
+            <id>zorg38</id>
+            <text>Wat is belangrijk voor effectieve teamcommunicatie in de zorg?</text>
+            <answers>
+                <answer id="a1">Snel praten</answer>
+                <answer id="a2">Duidelijkheid, respect en open communicatie</answer>
+                <answer id="a3">Alleen formele communicatie</answer>
+                <answer id="a4">Weinig overleg</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Effectieve teamcommunicatie vereist duidelijke informatie-uitwisseling, wederzijds respect en een open communicatiecultuur.</explanation>
+        </question>
+
+        <!-- Privacywet -->
+        <question>
+            <id>zorg39</id>
+            <text>Wat houdt de AVG (GDPR) in voor de zorg?</text>
+            <answers>
+                <answer id="a1">Vrije toegang tot alle patiëntgegevens</answer>
+                <answer id="a2">Bescherming van persoonsgegevens en privacy van patiënten</answer>
+                <answer id="a3">Delen van gegevens met iedereen</answer>
+                <answer id="a4">Alleen elektronische gegevens beschermen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>De AVG regelt de bescherming van persoonsgegevens en versterkt de privacyrechten van individuen, ook in de zorg.</explanation>
+        </question>
+
+        <!-- Innovatie -->
+        <question>
+            <id>zorg40</id>
+            <text>Wat is het doel van zorginnovatie?</text>
+            <answers>
+                <answer id="a1">Geld besparen</answer>
+                <answer id="a2">Zorgkwaliteit verbeteren en toegankelijkheid vergroten</answer>
+                <answer id="a3">Banen vervangen</answer>
+                <answer id="a4">Technologie verkopen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Zorginnovatie richt zich op het verbeteren van zorgkwaliteit, patiëntuitkomsten en toegankelijkheid van zorg.</explanation>
+        </question>
+
+        <!-- Community care -->
+        <question>
+            <id>zorg41</id>
+            <text>Wat is community care (wijkgericht werken)?</text>
+            <answers>
+                <answer id="a1">Werken vanuit huis</answer>
+                <answer id="a2">Zorg en ondersteuning dichtbij mensen in hun eigen omgeving</answer>
+                <answer id="a3">Werken in grote ziekenhuizen</answer>
+                <answer id="a4">Online zorgverlening</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Community care brengt zorg en ondersteuning dichter bij mensen in hun eigen leefomgeving en gemeenschap.</explanation>
+        </question>
+
+        <!-- Final question -->
+        <question>
+            <id>zorg42</id>
+            <text>Wat is het verschil tussen cure en care?</text>
+            <answers>
+                <answer id="a1">Er is geen verschil</answer>
+                <answer id="a2">Cure richt op genezing, care op zorg en comfort</answer>
+                <answer id="a3">Cure is duurder dan care</answer>
+                <answer id="a4">Care is alleen voor ouderen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Cure focust op behandeling en genezing van ziekten, terwijl care zich richt op verzorging, comfort en kwaliteit van leven.</explanation>
+        </question>
+    </questions>
+</quiz>

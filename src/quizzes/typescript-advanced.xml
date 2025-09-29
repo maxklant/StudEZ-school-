@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <id>typescript-advanced</id>
+    <title>TypeScript Advanced Concepts</title>
+    <description>Advanced TypeScript features including generics, decorators, and advanced types</description>
+    <difficulty>hard</difficulty>
+    <passingScore>85</passingScore>
+    <timeLimit>25</timeLimit>
+    <questions>
+        <question>
+            <id>ts1</id>
+            <text>What is the correct way to define a generic function in TypeScript?</text>
+            <answers>
+                <answer id="a1">function myFunc&lt;T&gt;(arg: T): T { return arg; }</answer>
+                <answer id="a2">function myFunc(T)(arg: T): T { return arg; }</answer>
+                <answer id="a3">function myFunc[T](arg: T): T { return arg; }</answer>
+                <answer id="a4">function myFunc{T}(arg: T): T { return arg; }</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>Generic functions in TypeScript use angle brackets &lt;T&gt; to define type parameters.</explanation>
+        </question>
+        <question>
+            <id>ts2</id>
+            <text>What does the 'keyof' operator do in TypeScript?</text>
+            <answers>
+                <answer id="a1">Creates a new object with specified keys</answer>
+                <answer id="a2">Returns a union type of all property names of a type</answer>
+                <answer id="a3">Checks if a key exists in an object</answer>
+                <answer id="a4">Removes keys from an object type</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The 'keyof' operator creates a union type of all property names (keys) of a given type.</explanation>
+        </question>
+        <question>
+            <id>ts3</id>
+            <text>Which utility type makes all properties of a type optional?</text>
+            <answers>
+                <answer id="a1">Required&lt;T&gt;</answer>
+                <answer id="a2">Partial&lt;T&gt;</answer>
+                <answer id="a3">Optional&lt;T&gt;</answer>
+                <answer id="a4">Nullable&lt;T&gt;</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Partial&lt;T&gt; makes all properties of type T optional by adding ? to each property.</explanation>
+        </question>
+        <question>
+            <id>ts4</id>
+            <text>What is a mapped type in TypeScript?</text>
+            <answers>
+                <answer id="a1">A type that maps values to keys</answer>
+                <answer id="a2">A type that creates new types by transforming properties of existing types</answer>
+                <answer id="a3">A type used for mapping between different modules</answer>
+                <answer id="a4">A type that represents a Map data structure</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Mapped types create new types by transforming properties of existing types using a template.</explanation>
+        </question>
+        <question>
+            <id>ts5</id>
+            <text>What is the difference between 'interface' and 'type' in TypeScript?</text>
+            <answers>
+                <answer id="a1">No difference, they are completely interchangeable</answer>
+                <answer id="a2">Interfaces can be extended and merged, types are more flexible with unions</answer>
+                <answer id="a3">Types are only for primitives, interfaces for objects</answer>
+                <answer id="a4">Interfaces are runtime constructs, types are compile-time only</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Interfaces support declaration merging and extension, while types are more flexible with unions, intersections, and computed properties.</explanation>
+        </question>
+        <question>
+            <id>ts6</id>
+            <text>What does the 'never' type represent?</text>
+            <answers>
+                <answer id="a1">A type that can hold any value</answer>
+                <answer id="a2">A type that represents null or undefined</answer>
+                <answer id="a3">A type that represents values that never occur</answer>
+                <answer id="a4">A type that can be assigned to any other type</answer>
+            </answers>
+            <correctAnswer>a3</correctAnswer>
+            <explanation>The 'never' type represents values that never occur, such as functions that never return or unreachable code paths.</explanation>
+        </question>
+    </questions>
+</quiz>

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Corporate Quiz - Blue Theme (#39B9EC) -->
+<quiz>
+    <id>corporate-business</id>
+    <title>Corporate &amp; Business Management</title>
+    <description>Test je kennis van bedrijfsstrategie, management en zakelijke fundamenten</description>
+    <difficulty>gemiddeld</difficulty>
+    <passingScore>70</passingScore>
+    <timeLimit>25</timeLimit>
+    <theme>#39B9EC</theme>
+    <category>Corporate</category>
+    <questions>
+        <!-- Management &amp; Leadership -->
+        <question>
+            <id>corp1</id>
+            <text>Wat is het primaire doel van een SWOT-analyse in bedrijfsstrategie?</text>
+            <answers>
+                <answer id="a1">Het analyseren van Sterktes, Zwaktes, Kansen en Bedreigingen</answer>
+                <answer id="a2">Het berekenen van financiële rendementen</answer>
+                <answer id="a3">Het beheren van werknemersprestaties</answer>
+                <answer id="a4">Het ontwerpen van marketingcampagnes</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>SWOT-analyse evalueert interne Sterktes en Zwaktes naast externe Kansen en Bedreigingen om strategische besluitvorming te ondersteunen.</explanation>
+        </question>
+        
+        <question>
+            <id>corp2</id>
+            <text>Which leadership style involves giving employees high autonomy and minimal supervision?</text>
+            <answers>
+                <answer id="a1">Autocratic</answer>
+                <answer id="a2">Democratic</answer>
+                <answer id="a3">Laissez-faire</answer>
+                <answer id="a4">Transformational</answer>
+            </answers>
+            <correctAnswer>a3</correctAnswer>
+            <explanation>Laissez-faire leadership provides maximum freedom to employees, with minimal direction or control from the leader.</explanation>
+        </question>
+
+        <question>
+            <id>corp3</id>
+            <text>What does ROI stand for in business metrics?</text>
+            <answers>
+                <answer id="a1">Return on Investment</answer>
+                <answer id="a2">Rate of Interest</answer>
+                <answer id="a3">Risk of Inflation</answer>
+                <answer id="a4">Revenue over Income</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>ROI (Return on Investment) measures the efficiency of an investment by comparing the gain or loss relative to the cost.</explanation>
+        </question>
+
+        <question>
+            <id>corp4</id>
+            <text>Which of the following is NOT one of Porter's Five Forces?</text>
+            <answers>
+                <answer id="a1">Threat of new entrants</answer>
+                <answer id="a2">Bargaining power of suppliers</answer>
+                <answer id="a3">Corporate social responsibility</answer>
+                <answer id="a4">Competitive rivalry</answer>
+            </answers>
+            <correctAnswer>a3</correctAnswer>
+            <explanation>Porter's Five Forces include: competitive rivalry, threat of new entrants, threat of substitutes, bargaining power of buyers, and bargaining power of suppliers.</explanation>
+        </question>
+
+        <question>
+            <id>corp5</id>
+            <text>What is the primary goal of change management in organizations?</text>
+            <answers>
+                <answer id="a1">To increase profits immediately</answer>
+                <answer id="a2">To successfully implement organizational transitions</answer>
+                <answer id="a3">To reduce employee headcount</answer>
+                <answer id="a4">To automate all processes</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Change management focuses on helping organizations and individuals successfully transition from current state to desired future state.</explanation>
+        </question>
+
+        <!-- Finance &amp; Accounting -->
+        <question>
+            <id>corp6</id>
+            <text>What is the difference between gross profit and net profit?</text>
+            <answers>
+                <answer id="a1">There is no difference</answer>
+                <answer id="a2">Gross profit includes all expenses, net profit doesn't</answer>
+                <answer id="a3">Net profit accounts for all expenses, gross profit only subtracts cost of goods sold</answer>
+                <answer id="a4">Gross profit is after taxes, net profit is before taxes</answer>
+            </answers>
+            <correctAnswer>a3</correctAnswer>
+            <explanation>Gross profit = Revenue - Cost of Goods Sold, while Net profit = Gross profit - All other expenses (operating, interest, taxes).</explanation>
+        </question>
+
+        <question>
+            <id>corp7</id>
+            <text>What does EBITDA measure?</text>
+            <answers>
+                <answer id="a1">Earnings Before Interest, Taxes, Depreciation, and Amortization</answer>
+                <answer id="a2">Employee Benefits, Insurance, Training, Development, Administration</answer>
+                <answer id="a3">Economic Business Income Tax Deduction Analysis</answer>
+                <answer id="a4">Estimated Budget for International Trade Development Activities</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>EBITDA is a measure of operating performance that excludes the effects of financing, accounting, and tax decisions.</explanation>
+        </question>
+
+        <question>
+            <id>corp8</id>
+            <text>Which financial statement shows a company's assets, liabilities, and equity?</text>
+            <answers>
+                <answer id="a1">Income Statement</answer>
+                <answer id="a2">Balance Sheet</answer>
+                <answer id="a3">Cash Flow Statement</answer>
+                <answer id="a4">Statement of Retained Earnings</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The Balance Sheet provides a snapshot of a company's financial position at a specific point in time, showing what it owns (assets) and owes (liabilities), plus owner's equity.</explanation>
+        </question>
+
+        <!-- Marketing &amp; Sales -->
+        <question>
+            <id>corp9</id>
+            <text>What are the 4 P's of the marketing mix?</text>
+            <answers>
+                <answer id="a1">Product, Price, Place, Promotion</answer>
+                <answer id="a2">People, Process, Physical Evidence, Price</answer>
+                <answer id="a3">Planning, Performance, Profit, Positioning</answer>
+                <answer id="a4">Production, Pricing, Packaging, Publicity</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>The traditional marketing mix consists of Product (what you sell), Price (how much), Place (where you sell), and Promotion (how you communicate).</explanation>
+        </question>
+
+        <question>
+            <id>corp10</id>
+            <text>What is B2B in business terminology?</text>
+            <answers>
+                <answer id="a1">Business to Business</answer>
+                <answer id="a2">Back to Basics</answer>
+                <answer id="a3">Buy to Build</answer>
+                <answer id="a4">Brand to Brand</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>B2B (Business to Business) refers to transactions or relationships between businesses, rather than between a business and individual consumers (B2C).</explanation>
+        </question>
+
+        <!-- Operations &amp; Strategy -->
+        <question>
+            <id>corp11</id>
+            <text>What is the primary benefit of implementing lean management principles?</text>
+            <answers>
+                <answer id="a1">Increasing employee salaries</answer>
+                <answer id="a2">Eliminating waste and improving efficiency</answer>
+                <answer id="a3">Expanding market share</answer>
+                <answer id="a4">Diversifying product lines</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Lean management focuses on minimizing waste while maximizing value, leading to improved efficiency and reduced costs.</explanation>
+        </question>
+
+        <question>
+            <id>corp12</id>
+            <text>What does KPI stand for in business performance measurement?</text>
+            <answers>
+                <answer id="a1">Key Performance Indicator</answer>
+                <answer id="a2">Knowledge Process Integration</answer>
+                <answer id="a3">Keep Profit Increasing</answer>
+                <answer id="a4">Key Process Implementation</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>KPIs are measurable values that demonstrate how effectively a company is achieving key business objectives.</explanation>
+        </question>
+
+        <question>
+            <id>corp13</id>
+            <text>Which project management methodology emphasizes iterative development and collaboration?</text>
+            <answers>
+                <answer id="a1">Waterfall</answer>
+                <answer id="a2">Agile</answer>
+                <answer id="a3">PRINCE2</answer>
+                <answer id="a4">Critical Path Method</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Agile methodology focuses on iterative development, customer collaboration, and responding to change over following a rigid plan.</explanation>
+        </question>
+
+        <!-- Human Resources -->
+        <question>
+            <id>corp14</id>
+            <text>What is the purpose of a performance appraisal system?</text>
+            <answers>
+                <answer id="a1">To determine employee salaries only</answer>
+                <answer id="a2">To evaluate and improve employee performance</answer>
+                <answer id="a3">To identify employees for termination</answer>
+                <answer id="a4">To schedule work shifts</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Performance appraisals assess employee performance, provide feedback, identify development needs, and align individual goals with organizational objectives.</explanation>
+        </question>
+
+        <question>
+            <id>corp15</id>
+            <text>What does diversity and inclusion in the workplace aim to achieve?</text>
+            <answers>
+                <answer id="a1">Meeting legal requirements only</answer>
+                <answer id="a2">Creating a workforce that reflects society and leverages different perspectives</answer>
+                <answer id="a3">Reducing training costs</answer>
+                <answer id="a4">Simplifying hiring processes</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>D&amp;I initiatives aim to create an environment where all employees feel valued and can contribute their unique perspectives and talents.</explanation>
+        </question>
+
+        <!-- Corporate Governance -->
+        <question>
+            <id>corp16</id>
+            <text>What is the primary role of a company's board of directors?</text>
+            <answers>
+                <answer id="a1">Managing daily operations</answer>
+                <answer id="a2">Overseeing strategy and governance on behalf of shareholders</answer>
+                <answer id="a3">Handling customer service</answer>
+                <answer id="a4">Developing products</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The board of directors provides strategic oversight, ensures proper governance, and represents shareholder interests in major corporate decisions.</explanation>
+        </question>
+
+        <question>
+            <id>corp17</id>
+            <text>What does CSR stand for in corporate context?</text>
+            <answers>
+                <answer id="a1">Customer Service Representative</answer>
+                <answer id="a2">Corporate Social Responsibility</answer>
+                <answer id="a3">Cost Savings Report</answer>
+                <answer id="a4">Customer Satisfaction Rating</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>CSR refers to a company's commitment to operate ethically and contribute to economic development while improving quality of life for employees, communities, and society.</explanation>
+        </question>
+
+        <!-- Risk Management -->
+        <question>
+            <id>corp18</id>
+            <text>What is the first step in the risk management process?</text>
+            <answers>
+                <answer id="a1">Risk mitigation</answer>
+                <answer id="a2">Risk assessment</answer>
+                <answer id="a3">Risk identification</answer>
+                <answer id="a4">Risk monitoring</answer>
+            </answers>
+            <correctAnswer>a3</correctAnswer>
+            <explanation>Risk identification is the first step, where potential risks that could affect the organization are systematically identified and documented.</explanation>
+        </question>
+
+        <question>
+            <id>corp19</id>
+            <text>What is business continuity planning?</text>
+            <answers>
+                <answer id="a1">Planning for business expansion</answer>
+                <answer id="a2">Ensuring operations continue during and after disruptions</answer>
+                <answer id="a3">Planning employee vacations</answer>
+                <answer id="a4">Scheduling maintenance activities</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Business continuity planning involves creating systems and processes to ensure critical business functions can continue during and after a disaster or disruption.</explanation>
+        </question>
+
+        <!-- Innovation &amp; Technology -->
+        <question>
+            <id>corp20</id>
+            <text>What is digital transformation in business?</text>
+            <answers>
+                <answer id="a1">Simply buying new computers</answer>
+                <answer id="a2">Integration of digital technology into all areas of business</answer>
+                <answer id="a3">Creating a website</answer>
+                <answer id="a4">Using social media for marketing</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Digital transformation involves fundamentally changing how businesses operate and deliver value to customers through digital technologies.</explanation>
+        </question>
+
+        <!-- Supply Chain -->
+        <question>
+            <id>corp21</id>
+            <text>What is just-in-time (JIT) inventory management?</text>
+            <answers>
+                <answer id="a1">Ordering inventory well in advance</answer>
+                <answer id="a2">Receiving goods only when needed to reduce holding costs</answer>
+                <answer id="a3">Stockpiling inventory for emergencies</answer>
+                <answer id="a4">Buying inventory at discounted prices</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>JIT is a strategy that aligns raw-material orders from suppliers directly with production schedules to reduce inventory costs and waste.</explanation>
+        </question>
+
+        <!-- Quality Management -->
+        <question>
+            <id>corp22</id>
+            <text>What does Six Sigma methodology focus on?</text>
+            <answers>
+                <answer id="a1">Increasing employee motivation</answer>
+                <answer id="a2">Reducing defects and process variation</answer>
+                <answer id="a3">Expanding market reach</answer>
+                <answer id="a4">Developing new products</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Six Sigma is a data-driven methodology that focuses on reducing defects and minimizing variation in business processes.</explanation>
+        </question>
+
+        <!-- Communication -->
+        <question>
+            <id>corp23</id>
+            <text>What is the most important element of effective business communication?</text>
+            <answers>
+                <answer id="a1">Using complex vocabulary</answer>
+                <answer id="a2">Clarity and understanding</answer>
+                <answer id="a3">Speaking loudly</answer>
+                <answer id="a4">Using technical jargon</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Effective business communication prioritizes clarity, ensuring the message is understood by the intended audience regardless of their background.</explanation>
+        </question>
+
+        <!-- Ethics -->
+        <question>
+            <id>corp24</id>
+            <text>What is a conflict of interest in business?</text>
+            <answers>
+                <answer id="a1">Disagreeing with colleagues</answer>
+                <answer id="a2">When personal interests may compromise professional judgment</answer>
+                <answer id="a3">Working on multiple projects</answer>
+                <answer id="a4">Having different opinions from management</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>A conflict of interest occurs when personal interests or relationships could potentially influence or compromise professional decision-making.</explanation>
+        </question>
+
+        <!-- International Business -->
+        <question>
+            <id>corp25</id>
+            <text>What is cultural intelligence in business?</text>
+            <answers>
+                <answer id="a1">Speaking multiple languages</answer>
+                <answer id="a2">The ability to work effectively across different cultures</answer>
+                <answer id="a3">Knowing historical facts</answer>
+                <answer id="a4">Traveling frequently</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Cultural intelligence is the capability to function effectively in culturally diverse settings and adapt behavior to different cultural contexts.</explanation>
+        </question>
+
+        <!-- Data &amp; Analytics -->
+        <question>
+            <id>corp26</id>
+            <text>What is business intelligence (BI)?</text>
+            <answers>
+                <answer id="a1">Spying on competitors</answer>
+                <answer id="a2">Technologies and strategies for analyzing business data</answer>
+                <answer id="a3">Hiring smart employees</answer>
+                <answer id="a4">Intellectual property protection</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Business Intelligence refers to technologies, applications, and practices for collecting, integrating, analyzing, and presenting business information.</explanation>
+        </question>
+
+        <!-- Customer Relations -->
+        <question>
+            <id>corp27</id>
+            <text>What is customer lifetime value (CLV)?</text>
+            <answers>
+                <answer id="a1">How long a customer lives</answer>
+                <answer id="a2">The total value a customer brings over their relationship with the company</answer>
+                <answer id="a3">The age of the customer</answer>
+                <answer id="a4">How much a customer pays per year</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>CLV predicts the total revenue a business can reasonably expect from a single customer account throughout the business relationship.</explanation>
+        </question>
+
+        <!-- Mergers &amp; Acquisitions -->
+        <question>
+            <id>corp28</id>
+            <text>What is due diligence in M&amp;A transactions?</text>
+            <answers>
+                <answer id="a1">Paying bills on time</answer>
+                <answer id="a2">Comprehensive investigation of a target company before acquisition</answer>
+                <answer id="a3">Following company policies</answer>
+                <answer id="a4">Meeting deadlines</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Due diligence is the investigation and evaluation of a company's business, financial, and legal affairs before completing a merger or acquisition.</explanation>
+        </question>
+
+        <!-- Sustainability -->
+        <question>
+            <id>corp29</id>
+            <text>What is the triple bottom line in sustainable business?</text>
+            <answers>
+                <answer id="a1">Three profit centers</answer>
+                <answer id="a2">People, Planet, Profit</answer>
+                <answer id="a3">Three business locations</answer>
+                <answer id="a4">Three quarterly reports</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The triple bottom line evaluates company performance based on social responsibility (People), environmental impact (Planet), and financial performance (Profit).</explanation>
+        </question>
+
+        <!-- Organizational Behavior -->
+        <question>
+            <id>corp30</id>
+            <text>What is emotional intelligence in leadership?</text>
+            <answers>
+                <answer id="a1">Being overly emotional</answer>
+                <answer id="a2">The ability to understand and manage emotions effectively</answer>
+                <answer id="a3">Avoiding emotional situations</answer>
+                <answer id="a4">Making decisions based only on feelings</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Emotional intelligence involves recognizing, understanding, and managing our own emotions and effectively handling interpersonal relationships.</explanation>
+        </question>
+
+        <!-- Strategic Planning -->
+        <question>
+            <id>corp31</id>
+            <text>What is a mission statement?</text>
+            <answers>
+                <answer id="a1">A secret business plan</answer>
+                <answer id="a2">A clear statement of an organization's purpose and primary objectives</answer>
+                <answer id="a3">A marketing slogan</answer>
+                <answer id="a4">An employee handbook</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>A mission statement defines the organization's purpose, what it does, who it serves, and how it serves them.</explanation>
+        </question>
+
+        <!-- Innovation Management -->
+        <question>
+            <id>corp32</id>
+            <text>What is disruptive innovation?</text>
+            <answers>
+                <answer id="a1">Any new technology</answer>
+                <answer id="a2">Innovation that creates new markets and displaces established ones</answer>
+                <answer id="a3">Violent innovation</answer>
+                <answer id="a4">Failed innovation attempts</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Disruptive innovation creates a new market and network of customers, eventually displacing established market leaders and products.</explanation>
+        </question>
+
+        <!-- Corporate Finance -->
+        <question>
+            <id>corp33</id>
+            <text>What is working capital?</text>
+            <answers>
+                <answer id="a1">Money invested in equipment</answer>
+                <answer id="a2">Current assets minus current liabilities</answer>
+                <answer id="a3">Annual profit</answer>
+                <answer id="a4">Employee wages</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Working capital measures a company's short-term financial health and operational efficiency by comparing liquid assets to short-term liabilities.</explanation>
+        </question>
+
+        <!-- Business Law -->
+        <question>
+            <id>corp34</id>
+            <text>What is intellectual property?</text>
+            <answers>
+                <answer id="a1">Smart employees</answer>
+                <answer id="a2">Creations of the mind protected by law</answer>
+                <answer id="a3">Company computers</answer>
+                <answer id="a4">Training materials</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Intellectual property includes patents, trademarks, copyrights, and trade secrets that provide legal protection for creative and innovative works.</explanation>
+        </question>
+
+        <!-- Operations Management -->
+        <question>
+            <id>corp35</id>
+            <text>What is capacity planning in operations?</text>
+            <answers>
+                <answer id="a1">Planning office space</answer>
+                <answer id="a2">Determining production capacity needed to meet demand</answer>
+                <answer id="a3">Planning employee capacity</answer>
+                <answer id="a4">Planning storage capacity</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Capacity planning ensures that a business has the production capacity to meet current and future demand efficiently.</explanation>
+        </question>
+
+        <!-- Competitive Analysis -->
+        <question>
+            <id>corp36</id>
+            <text>What is benchmarking in business?</text>
+            <answers>
+                <answer id="a1">Setting up workbenches</answer>
+                <answer id="a2">Comparing performance against industry standards or best practices</answer>
+                <answer id="a3">Creating performance goals</answer>
+                <answer id="a4">Measuring employee performance</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Benchmarking involves comparing business processes and performance metrics to industry bests or best practices from other companies.</explanation>
+        </question>
+
+        <!-- Digital Marketing -->
+        <question>
+            <id>corp37</id>
+            <text>What is SEO in digital marketing?</text>
+            <answers>
+                <answer id="a1">Social Event Organization</answer>
+                <answer id="a2">Search Engine Optimization</answer>
+                <answer id="a3">Sales Enhancement Operations</answer>
+                <answer id="a4">Systematic Employee Orientation</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>SEO is the practice of optimizing websites to rank higher in search engine results pages and increase organic traffic.</explanation>
+        </question>
+
+        <!-- Business Ethics -->
+        <question>
+            <id>corp38</id>
+            <text>What is whistleblowing in corporate ethics?</text>
+            <answers>
+                <answer id="a1">Making noise in the office</answer>
+                <answer id="a2">Reporting unethical or illegal activities within an organization</answer>
+                <answer id="a3">Celebrating achievements</answer>
+                <answer id="a4">Coaching sports teams</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Whistleblowing involves reporting misconduct, unethical behavior, or illegal activities within an organization to appropriate authorities.</explanation>
+        </question>
+
+        <!-- Organizational Development -->
+        <question>
+            <id>corp39</id>
+            <text>What is organizational culture?</text>
+            <answers>
+                <answer id="a1">Company parties and events</answer>
+                <answer id="a2">Shared values, beliefs, and practices that characterize an organization</answer>
+                <answer id="a3">Office decorations</answer>
+                <answer id="a4">Company logo and branding</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Organizational culture encompasses the shared assumptions, values, and beliefs that govern how people behave within an organization.</explanation>
+        </question>
+
+        <!-- Crisis Management -->
+        <question>
+            <id>corp40</id>
+            <text>What is the first priority in crisis management?</text>
+            <answers>
+                <answer id="a1">Protecting profits</answer>
+                <answer id="a2">Ensuring safety and minimizing harm</answer>
+                <answer id="a3">Blaming others</answer>
+                <answer id="a4">Hiding information</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The primary goal of crisis management is to protect people from harm and minimize damage before addressing other concerns like reputation or financial impact.</explanation>
+        </question>
+
+        <!-- Process Improvement -->
+        <question>
+            <id>corp41</id>
+            <text>What is continuous improvement (Kaizen)?</text>
+            <answers>
+                <answer id="a1">One-time major changes</answer>
+                <answer id="a2">Ongoing efforts to improve products, services, or processes</answer>
+                <answer id="a3">Japanese cooking methods</answer>
+                <answer id="a4">Employee training programs</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Kaizen focuses on continuous, incremental improvements in all aspects of an organization, involving all employees from management to workers.</explanation>
+        </question>
+
+        <!-- Market Research -->
+        <question>
+            <id>corp42</id>
+            <text>What is market segmentation?</text>
+            <answers>
+                <answer id="a1">Dividing the company into departments</answer>
+                <answer id="a2">Dividing a market into distinct groups of consumers</answer>
+                <answer id="a3">Separating products by price</answer>
+                <answer id="a4">Organizing sales territories</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Market segmentation involves dividing a broad target market into subsets of consumers who have common needs, interests, and priorities.</explanation>
+        </question>
+
+        <!-- Final question for exactly 42 questions -->
+        <question>
+            <id>corp43</id>
+            <text>What is the purpose of a business plan?</text>
+            <answers>
+                <answer id="a1">To impress investors only</answer>
+                <answer id="a2">To provide a roadmap for business development and operations</answer>
+                <answer id="a3">To meet legal requirements</answer>
+                <answer id="a4">To set employee schedules</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>A business plan serves as a comprehensive guide that outlines business goals, strategies, market analysis, and financial projections to guide decision-making and attract stakeholders.</explanation>
+        </question>
+    </questions>
+</quiz>

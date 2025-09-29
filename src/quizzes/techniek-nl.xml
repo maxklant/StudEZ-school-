@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Techniek Quiz - Green Theme (#CCD626) -->
+<quiz>
+    <id>techniek</id>
+    <title>Techniek &amp; Engineering</title>
+    <description>Test je kennis van technische principes, technologie en technische toepassingen</description>
+    <difficulty>gemiddeld</difficulty>
+    <passingScore>70</passingScore>
+    <timeLimit>25</timeLimit>
+    <theme>#CCD626</theme>
+    <category>Techniek</category>
+    <questions>
+        <question>
+            <id>tech1</id>
+            <text>Wat is het hoofdprincipe van Object-Georiënteerd Programmeren (OOP)?</text>
+            <answers>
+                <answer id="a1">Code schrijven in één bestand</answer>
+                <answer id="a2">Code organiseren in objecten met eigenschappen en methoden</answer>
+                <answer id="a3">Alleen functies gebruiken</answer>
+                <answer id="a4">Datastructuren vermijden</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>OOP organiseert code in objecten die zowel data (eigenschappen) als functies (methoden) bevatten die op die data werken.</explanation>
+        </question>
+
+        <question>
+            <id>tech2</id>
+            <text>Waar staat API voor in softwareontwikkeling?</text>
+            <answers>
+                <answer id="a1">Application Programming Interface</answer>
+                <answer id="a2">Automated Program Integration</answer>
+                <answer id="a3">Advanced Programming Instructions</answer>
+                <answer id="a4">Application Process Identifier</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>API (Application Programming Interface) definieert hoe verschillende softwarecomponenten met elkaar moeten communiceren.</explanation>
+        </question>
+
+        <question>
+            <id>tech3</id>
+            <text>Wat is versiebeheer in softwareontwikkeling?</text>
+            <answers>
+                <answer id="a1">Softwareversies testen</answer>
+                <answer id="a2">Systeem voor het bijhouden van bestandswijzigingen en coördinatie van werk</answer>
+                <answer id="a3">Softwarelicenties beheren</answer>
+                <answer id="a4">Softwareprijzen beheren</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Versiebeheersystemen houden wijzigingen in code bij over tijd, waardoor meerdere ontwikkelaars kunnen samenwerken en geschiedenis kunnen onderhouden.</explanation>
+        </question>
+
+        <question>
+            <id>tech4</id>
+            <text>Waar staat SQL voor?</text>
+            <answers>
+                <answer id="a1">Standard Query Language</answer>
+                <answer id="a2">Structured Query Language</answer>
+                <answer id="a3">Simple Query Logic</answer>
+                <answer id="a4">System Query Library</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>SQL (Structured Query Language) wordt gebruikt voor het beheren en bevragen van relationele databases.</explanation>
+        </question>
+
+        <question>
+            <id>tech5</id>
+            <text>Wat is normalisatie in databaseontwerp?</text>
+            <answers>
+                <answer id="a1">Alle data hetzelfde maken</answer>
+                <answer id="a2">Data organiseren om redundantie te verminderen en integriteit te verbeteren</answer>
+                <answer id="a3">Data omzetten naar normaal lettertype</answer>
+                <answer id="a4">Kolomnamen standaardiseren</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Database normalisatie organiseert data om redundantie en afhankelijkheden te minimaliseren, wat data-integriteit verbetert en opslagruimte bespaart.</explanation>
+        </question>
+
+        <question>
+            <id>tech6</id>
+            <text>Waar staat HTTP voor?</text>
+            <answers>
+                <answer id="a1">HyperText Transfer Protocol</answer>
+                <answer id="a2">High Technology Transfer Process</answer>
+                <answer id="a3">Home Text Transmission Protocol</answer>
+                <answer id="a4">Hybrid Text Transfer Procedure</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>HTTP (HyperText Transfer Protocol) is de basis van datacommunicatie op het World Wide Web.</explanation>
+        </question>
+
+        <question>
+            <id>tech7</id>
+            <text>Wat is het verschil tussen HTTP en HTTPS?</text>
+            <answers>
+                <answer id="a1">HTTPS is sneller</answer>
+                <answer id="a2">HTTPS voegt versleuteling en beveiliging toe</answer>
+                <answer id="a3">HTTPS werkt alleen op mobiel</answer>
+                <answer id="a4">Geen verschil</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>HTTPS voegt SSL/TLS-versleuteling toe aan HTTP, wat beveiligde communicatie over internet biedt.</explanation>
+        </question>
+
+        <question>
+            <id>tech8</id>
+            <text>Wat is twee-factor authenticatie (2FA)?</text>
+            <answers>
+                <answer id="a1">Twee wachtwoorden gebruiken</answer>
+                <answer id="a2">Beveiligingsmethode die twee verschillende verificatiefactoren vereist</answer>
+                <answer id="a3">Twee gebruikersaccounts hebben</answer>
+                <answer id="a4">Twee keer inloggen</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>2FA vereist twee verschillende soorten verificatie (iets wat je weet, hebt of bent) om de beveiliging te verbeteren.</explanation>
+        </question>
+
+        <question>
+            <id>tech9</id>
+            <text>Wat is een firewall in netwerkbeveiliging?</text>
+            <answers>
+                <answer id="a1">Fysieke muurbescherming</answer>
+                <answer id="a2">Systeem dat netwerkverkeer monitort en controleert</answer>
+                <answer id="a3">Type virus</answer>
+                <answer id="a4">Backup systeem</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Een firewall is een beveiligingssysteem dat inkomend en uitgaand netwerkverkeer monitort en controleert op basis van beveiligingsregels.</explanation>
+        </question>
+
+        <question>
+            <id>tech10</id>
+            <text>Wat is cloud computing?</text>
+            <answers>
+                <answer id="a1">Rekenen in de lucht</answer>
+                <answer id="a2">Levering van computerdiensten via internet</answer>
+                <answer id="a3">Weervoorspelling</answer>
+                <answer id="a4">Data opslaan in wolken</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Cloud computing biedt on-demand toegang tot computerbronnen (servers, opslag, databases) via internet.</explanation>
+        </question>
+    </questions>
+</quiz>

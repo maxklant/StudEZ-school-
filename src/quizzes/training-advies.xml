@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Training &amp; Advies Quiz - Yellow Theme (#F2B300) -->
+<quiz>
+    <id>training-advies</id>
+    <title>Training &amp; Advies</title>
+    <description>Test your knowledge of training methods, educational psychology, and advisory practices</description>
+    <difficulty>medium</difficulty>
+    <passingScore>70</passingScore>
+    <timeLimit>25</timeLimit>
+    <theme>#F2B300</theme>
+    <category>Training &amp; Advies</category>
+    <questions>
+        <!-- Learning Theory -->
+        <question>
+            <id>train1</id>
+            <text>What is Bloom's Taxonomy used for in education?</text>
+            <answers>
+                <answer id="a1">Classifying plants</answer>
+                <answer id="a2">Categorizing learning objectives and cognitive skills</answer>
+                <answer id="a3">Organizing students</answer>
+                <answer id="a4">Scheduling classes</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Bloom's Taxonomy is a framework for categorizing educational goals and learning objectives from basic knowledge to higher-order thinking skills.</explanation>
+        </question>
+
+        <question>
+            <id>train2</id>
+            <text>What are the main learning styles according to VARK model?</text>
+            <answers>
+                <answer id="a1">Fast, Medium, Slow</answer>
+                <answer id="a2">Visual, Auditory, Reading/Writing, Kinesthetic</answer>
+                <answer id="a3">Beginner, Intermediate, Advanced</answer>
+                <answer id="a4">Individual, Group, Online</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>VARK identifies four learning preferences: Visual (seeing), Auditory (hearing), Reading/Writing (text), and Kinesthetic (doing/touching).</explanation>
+        </question>
+
+        <question>
+            <id>train3</id>
+            <text>What is scaffolding in education?</text>
+            <answers>
+                <answer id="a1">Building construction</answer>
+                <answer id="a2">Temporary support structure to help learners achieve goals</answer>
+                <answer id="a3">Punishment system</answer>
+                <answer id="a4">Testing method</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Educational scaffolding provides temporary support and guidance that is gradually removed as learners become more independent.</explanation>
+        </question>
+
+        <!-- Adult Learning -->
+        <question>
+            <id>train4</id>
+            <text>What is andragogy?</text>
+            <answers>
+                <answer id="a1">Study of children's learning</answer>
+                <answer id="a2">Science of adult learning</answer>
+                <answer id="a3">Educational technology</answer>
+                <answer id="a4">Learning disabilities</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Andragogy is the method and practice of teaching adult learners, focusing on their unique characteristics and motivations.</explanation>
+        </question>
+
+        <question>
+            <id>train5</id>
+            <text>What motivates adult learners most according to research?</text>
+            <answers>
+                <answer id="a1">External rewards only</answer>
+                <answer id="a2">Immediate applicability and relevance to their goals</answer>
+                <answer id="a3">Competition with others</answer>
+                <answer id="a4">Fear of failure</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Adult learners are most motivated when they see immediate value and relevance to their personal or professional goals.</explanation>
+        </question>
+
+        <!-- Training Design -->
+        <question>
+            <id>train6</id>
+            <text>What is the ADDIE model in instructional design?</text>
+            <answers>
+                <answer id="a1">Analysis, Design, Development, Implementation, Evaluation</answer>
+                <answer id="a2">Assess, Deliver, Direct, Implement, Execute</answer>
+                <answer id="a3">Analyze, Distribute, Develop, Integrate, Evaluate</answer>
+                <answer id="a4">Assign, Design, Deploy, Install, End</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>ADDIE is a systematic instructional design framework: Analyze needs, Design solution, Develop materials, Implement training, Evaluate effectiveness.</explanation>
+        </question>
+
+        <question>
+            <id>train7</id>
+            <text>What is the 70-20-10 learning model?</text>
+            <answers>
+                <answer id="a1">Test scores distribution</answer>
+                <answer id="a2">70% experiential, 20% social learning, 10% formal training</answer>
+                <answer id="a3">Time allocation for training</answer>
+                <answer id="a4">Budget distribution</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The 70-20-10 model suggests people learn 70% from experience, 20% from others, and 10% from formal courses.</explanation>
+        </question>
+
+        <!-- Coaching &amp; Mentoring -->
+        <question>
+            <id>train8</id>
+            <text>What is the difference between coaching and mentoring?</text>
+            <answers>
+                <answer id="a1">No difference</answer>
+                <answer id="a2">Coaching is task-focused and short-term; mentoring is relationship-based and long-term</answer>
+                <answer id="a3">Coaching is more expensive</answer>
+                <answer id="a4">Mentoring is only for young people</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Coaching typically focuses on specific skills/performance over shorter periods, while mentoring involves broader development through longer-term relationships.</explanation>
+        </question>
+
+        <question>
+            <id>train9</id>
+            <text>What is the GROW model in coaching?</text>
+            <answers>
+                <answer id="a1">Growth, Results, Options, Will</answer>
+                <answer id="a2">Goal, Reality, Options, Will/Way forward</answer>
+                <answer id="a3">Guide, Respond, Organize, Win</answer>
+                <answer id="a4">Generate, Review, Optimize, Work</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>GROW is a coaching framework: Goal (what to achieve), Reality (current situation), Options (possible actions), Will (commitment to action).</explanation>
+        </question>
+
+        <!-- Assessment &amp; Evaluation -->
+        <question>
+            <id>train10</id>
+            <text>What is formative assessment?</text>
+            <answers>
+                <answer id="a1">Final exam</answer>
+                <answer id="a2">Ongoing evaluation during learning process</answer>
+                <answer id="a3">Formal certification</answer>
+                <answer id="a4">Annual review</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Formative assessment provides ongoing feedback during the learning process to help improve performance before final evaluation.</explanation>
+        </question>
+
+        <question>
+            <id>train11</id>
+            <text>What is Kirkpatrick's Four-Level Training Evaluation Model?</text>
+            <answers>
+                <answer id="a1">Reaction, Learning, Behavior, Results</answer>
+                <answer id="a2">Planning, Delivery, Testing, Review</answer>
+                <answer id="a3">Basic, Intermediate, Advanced, Expert</answer>
+                <answer id="a4">Individual, Team, Department, Organization</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>Kirkpatrick's model evaluates training at four levels: Reaction (satisfaction), Learning (knowledge gain), Behavior (application), Results (business impact).</explanation>
+        </question>
+
+        <!-- E-Learning -->
+        <question>
+            <id>train12</id>
+            <text>What is blended learning?</text>
+            <answers>
+                <answer id="a1">Learning multiple subjects</answer>
+                <answer id="a2">Combination of online and face-to-face instruction</answer>
+                <answer id="a3">Learning in groups</answer>
+                <answer id="a4">Mixed-age learning</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Blended learning combines traditional classroom teaching with online digital media and activities for a more flexible approach.</explanation>
+        </question>
+
+        <question>
+            <id>train13</id>
+            <text>What does LMS stand for in education?</text>
+            <answers>
+                <answer id="a1">Learning Management System</answer>
+                <answer id="a2">Lesson Management Service</answer>
+                <answer id="a3">Library Management Software</answer>
+                <answer id="a4">Learning Measurement Scale</answer>
+            </answers>
+            <correctAnswer>a1</correctAnswer>
+            <explanation>LMS (Learning Management System) is software for delivering, tracking, and managing training and educational courses.</explanation>
+        </question>
+
+        <!-- Communication &amp; Presentation -->
+        <question>
+            <id>train14</id>
+            <text>What is active listening in training contexts?</text>
+            <answers>
+                <answer id="a1">Listening while exercising</answer>
+                <answer id="a2">Fully concentrating, understanding, and responding to speakers</answer>
+                <answer id="a3">Listening to music</answer>
+                <answer id="a4">Taking detailed notes</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Active listening involves giving full attention, understanding the message, and providing appropriate feedback to enhance communication.</explanation>
+        </question>
+
+        <question>
+            <id>train15</id>
+            <text>What is the rule of 7 in presentations?</text>
+            <answers>
+                <answer id="a1">Present for 7 minutes</answer>
+                <answer id="a2">Maximum 7 words per line, 7 lines per slide</answer>
+                <answer id="a3">Use 7 slides maximum</answer>
+                <answer id="a4">Repeat key points 7 times</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The rule of 7 suggests limiting slides to maximum 7 words per line and 7 lines per slide for better readability and engagement.</explanation>
+        </question>
+
+        <!-- Group Dynamics -->
+        <question>
+            <id>train16</id>
+            <text>What are the stages of group development according to Tuckman?</text>
+            <answers>
+                <answer id="a1">Start, Middle, End</answer>
+                <answer id="a2">Forming, Storming, Norming, Performing</answer>
+                <answer id="a3">Planning, Acting, Reviewing</answer>
+                <answer id="a4">Individual, Pair, Group, Team</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Tuckman's model describes group development: Forming (coming together), Storming (conflicts), Norming (establishing rules), Performing (working effectively).</explanation>
+        </question>
+
+        <!-- Motivation Theory -->
+        <question>
+            <id>train17</id>
+            <text>What is Maslow's hierarchy of needs?</text>
+            <answers>
+                <answer id="a1">Performance management system</answer>
+                <answer id="a2">Theory of human motivation with five levels of needs</answer>
+                <answer id="a3">Training curriculum structure</answer>
+                <answer id="a4">Leadership style classification</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Maslow's hierarchy organizes human needs from basic (physiological, safety) to higher-level (love, esteem, self-actualization) motivations.</explanation>
+        </question>
+
+        <!-- Feedback -->
+        <question>
+            <id>train18</id>
+            <text>What is the feedback sandwich method?</text>
+            <answers>
+                <answer id="a1">Eating while giving feedback</answer>
+                <answer id="a2">Positive comment, constructive criticism, positive comment</answer>
+                <answer id="a3">Three layers of feedback</answer>
+                <answer id="a4">Written feedback format</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The feedback sandwich wraps constructive criticism between positive comments to make feedback more palatable and effective.</explanation>
+        </question>
+
+        <!-- Learning Disabilities -->
+        <question>
+            <id>train19</id>
+            <text>What is dyslexia?</text>
+            <answers>
+                <answer id="a1">Fear of learning</answer>
+                <answer id="a2">Learning difficulty affecting reading and language processing</answer>
+                <answer id="a3">Vision problem</answer>
+                <answer id="a4">Attention disorder</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Dyslexia is a learning difficulty that primarily affects reading, spelling, and writing skills despite normal intelligence.</explanation>
+        </question>
+
+        <!-- Training Techniques -->
+        <question>
+            <id>train20</id>
+            <text>What is role-playing in training?</text>
+            <answers>
+                <answer id="a1">Acting in theater</answer>
+                <answer id="a2">Simulation exercise where participants act out scenarios</answer>
+                <answer id="a3">Video game playing</answer>
+                <answer id="a4">Reading scripts</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Role-playing is an experiential learning technique where participants practice skills by acting out real-world scenarios in a safe environment.</explanation>
+        </question>
+
+        <!-- Competency Development -->
+        <question>
+            <id>train21</id>
+            <text>What is a competency framework?</text>
+            <answers>
+                <answer id="a1">Building structure</answer>
+                <answer id="a2">Structured set of skills, knowledge, and behaviors required for job performance</answer>
+                <answer id="a3">Competition rules</answer>
+                <answer id="a4">Testing schedule</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>A competency framework defines the specific skills, knowledge, and behaviors needed for successful performance in roles or organizations.</explanation>
+        </question>
+
+        <!-- Change Management -->
+        <question>
+            <id>train22</id>
+            <text>What is Kotter's 8-step change model used for?</text>
+            <answers>
+                <answer id="a1">Exercise routine</answer>
+                <answer id="a2">Framework for leading organizational change</answer>
+                <answer id="a3">Learning process</answer>
+                <answer id="a4">Project management</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Kotter's model provides eight steps for successfully leading organizational change, from creating urgency to anchoring new approaches.</explanation>
+        </question>
+
+        <!-- Training ROI -->
+        <question>
+            <id>train23</id>
+            <text>How do you calculate training ROI?</text>
+            <answers>
+                <answer id="a1">Training cost ÷ Number of participants</answer>
+                <answer id="a2">(Training benefits - Training costs) ÷ Training costs × 100</answer>
+                <answer id="a3">Number of participants × Training hours</answer>
+                <answer id="a4">Training score ÷ Passing score</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Training ROI is calculated by subtracting costs from benefits, dividing by costs, and multiplying by 100 to get percentage return.</explanation>
+        </question>
+
+        <!-- Facilitation -->
+        <question>
+            <id>train24</id>
+            <text>What is the primary role of a facilitator?</text>
+            <answers>
+                <answer id="a1">To provide all the answers</answer>
+                <answer id="a2">To guide process and help groups achieve objectives</answer>
+                <answer id="a3">To evaluate participants</answer>
+                <answer id="a4">To deliver content</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>A facilitator guides group processes, encourages participation, and helps groups reach their goals without being the content expert.</explanation>
+        </question>
+
+        <!-- Microlearning -->
+        <question>
+            <id>train25</id>
+            <text>What is microlearning?</text>
+            <answers>
+                <answer id="a1">Learning for children</answer>
+                <answer id="a2">Short, focused learning segments</answer>
+                <answer id="a3">Learning with microscopes</answer>
+                <answer id="a4">Small group learning</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Microlearning delivers content in small, focused chunks that can be consumed quickly and are easy to digest and remember.</explanation>
+        </question>
+
+        <!-- Performance Support -->
+        <question>
+            <id>train26</id>
+            <text>What is just-in-time learning?</text>
+            <answers>
+                <answer id="a1">Learning at the last minute</answer>
+                <answer id="a2">Learning resources available when and where needed</answer>
+                <answer id="a3">Scheduled learning sessions</answer>
+                <answer id="a4">Time management training</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Just-in-time learning provides information precisely when learners need it to perform tasks, often through performance support tools.</explanation>
+        </question>
+
+        <!-- Cross-cultural Training -->
+        <question>
+            <id>train27</id>
+            <text>What is cultural competency in training?</text>
+            <answers>
+                <answer id="a1">Teaching about art and music</answer>
+                <answer id="a2">Ability to effectively work with people from different cultural backgrounds</answer>
+                <answer id="a3">Language learning</answer>
+                <answer id="a4">International business skills</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Cultural competency involves understanding, appreciating, and effectively interacting with people from diverse cultural backgrounds.</explanation>
+        </question>
+
+        <!-- Training Needs Analysis -->
+        <question>
+            <id>train28</id>
+            <text>What is a training needs analysis?</text>
+            <answers>
+                <answer id="a1">List of available training programs</answer>
+                <answer id="a2">Systematic process to identify performance gaps and learning requirements</answer>
+                <answer id="a3">Training budget calculation</answer>
+                <answer id="a4">Trainer qualification assessment</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Training needs analysis identifies performance gaps and determines what training is needed to close those gaps effectively.</explanation>
+        </question>
+
+        <!-- Gamification -->
+        <question>
+            <id>train29</id>
+            <text>What is gamification in learning?</text>
+            <answers>
+                <answer id="a1">Playing video games</answer>
+                <answer id="a2">Using game elements and mechanics in non-game learning contexts</answer>
+                <answer id="a3">Competitive learning</answer>
+                <answer id="a4">Sports-based training</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Gamification applies game design elements like points, badges, and leaderboards to make learning more engaging and motivating.</explanation>
+        </question>
+
+        <!-- Transfer of Learning -->
+        <question>
+            <id>train30</id>
+            <text>What is transfer of learning?</text>
+            <answers>
+                <answer id="a1">Moving to a different school</answer>
+                <answer id="a2">Applying knowledge and skills learned in training to the job</answer>
+                <answer id="a3">Sharing learning materials</answer>
+                <answer id="a4">Changing training programs</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Transfer of learning occurs when knowledge, skills, and attitudes acquired in training are effectively applied in the workplace.</explanation>
+        </question>
+
+        <!-- Instructional Strategies -->
+        <question>
+            <id>train31</id>
+            <text>What is the flipped classroom model?</text>
+            <answers>
+                <answer id="a1">Upside-down classroom setup</answer>
+                <answer id="a2">Students learn content at home and practice in class</answer>
+                <answer id="a3">Changing classroom locations</answer>
+                <answer id="a4">Reverse seating arrangement</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>In flipped classrooms, students consume instructional content (videos, readings) at home and use class time for interactive activities and practice.</explanation>
+        </question>
+
+        <!-- Learning Analytics -->
+        <question>
+            <id>train32</id>
+            <text>What are learning analytics?</text>
+            <answers>
+                <answer id="a1">Mathematical equations</answer>
+                <answer id="a2">Measurement and analysis of learner data to improve learning</answer>
+                <answer id="a3">Learning assessments</answer>
+                <answer id="a4">Study schedules</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Learning analytics involves collecting, measuring, and analyzing learner data to understand and optimize learning processes and environments.</explanation>
+        </question>
+
+        <!-- Consultation Skills -->
+        <question>
+            <id>train33</id>
+            <text>What is the consulting process typically involves?</text>
+            <answers>
+                <answer id="a1">Only giving advice</answer>
+                <answer id="a2">Assessment, recommendation, implementation, and evaluation</answer>
+                <answer id="a3">Selling services</answer>
+                <answer id="a4">Writing reports</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The consulting process typically includes assessing client needs, developing recommendations, supporting implementation, and evaluating results.</explanation>
+        </question>
+
+        <!-- Memory and Retention -->
+        <question>
+            <id>train34</id>
+            <text>What is the forgetting curve?</text>
+            <answers>
+                <answer id="a1">Learning difficulty graph</answer>
+                <answer id="a2">Rate at which information is lost over time without reinforcement</answer>
+                <answer id="a3">Memory improvement technique</answer>
+                <answer id="a4">Brain development stages</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>The forgetting curve shows how quickly we lose information over time, demonstrating the importance of spaced repetition and reinforcement.</explanation>
+        </question>
+
+        <!-- Problem-Based Learning -->
+        <question>
+            <id>train35</id>
+            <text>What is problem-based learning (PBL)?</text>
+            <answers>
+                <answer id="a1">Learning about problems</answer>
+                <answer id="a2">Learning through solving real-world problems</answer>
+                <answer id="a3">Problematic learning situations</answer>
+                <answer id="a4">Fixing learning issues</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>PBL is a student-centered approach where learners gain knowledge and skills by working on authentic, complex problems.</explanation>
+        </question>
+
+        <!-- Training Delivery Methods -->
+        <question>
+            <id>train36</id>
+            <text>What is synchronous learning?</text>
+            <answers>
+                <answer id="a1">Learning at the same pace</answer>
+                <answer id="a2">Real-time learning with instructor and learners together</answer>
+                <answer id="a3">Synchronized swimming training</answer>
+                <answer id="a4">Learning similar subjects</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Synchronous learning occurs in real-time with instructor and learners participating simultaneously, either in-person or virtually.</explanation>
+        </question>
+
+        <!-- Emotional Intelligence -->
+        <question>
+            <id>train37</id>
+            <text>What is emotional intelligence in training contexts?</text>
+            <answers>
+                <answer id="a1">Being emotional during training</answer>
+                <answer id="a2">Ability to recognize, understand, and manage emotions</answer>
+                <answer id="a3">Intelligence about emotions</answer>
+                <answer id="a4">Emotional reactions to learning</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Emotional intelligence involves recognizing emotions in yourself and others, understanding their impact, and managing them effectively.</explanation>
+        </question>
+
+        <!-- Curriculum Development -->
+        <question>
+            <id>train38</id>
+            <text>What is backward design in curriculum development?</text>
+            <answers>
+                <answer id="a1">Designing courses in reverse order</answer>
+                <answer id="a2">Starting with desired outcomes and working backward to design instruction</answer>
+                <answer id="a3">Looking at past curricula</answer>
+                <answer id="a4">Undoing previous designs</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Backward design starts with identifying desired learning outcomes, then determines acceptable evidence, and finally plans learning experiences.</explanation>
+        </question>
+
+        <!-- Peer Learning -->
+        <question>
+            <id>train39</id>
+            <text>What is peer-to-peer learning?</text>
+            <answers>
+                <answer id="a1">Learning from friends only</answer>
+                <answer id="a2">Educational approach where learners teach and learn from each other</answer>
+                <answer id="a3">Learning in pairs</answer>
+                <answer id="a4">Competitive learning</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Peer-to-peer learning involves learners teaching and learning from each other, leveraging diverse perspectives and collaborative knowledge building.</explanation>
+        </question>
+
+        <!-- Training Technology -->
+        <question>
+            <id>train40</id>
+            <text>What is virtual reality (VR) training?</text>
+            <answers>
+                <answer id="a1">Imaginary training</answer>
+                <answer id="a2">Immersive training using computer-generated 3D environments</answer>
+                <answer id="a3">Online video training</answer>
+                <answer id="a4">Reality TV about training</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>VR training creates immersive, interactive 3D environments where learners can practice skills safely and repeatedly in realistic scenarios.</explanation>
+        </question>
+
+        <!-- Continuous Learning -->
+        <question>
+            <id>train41</id>
+            <text>What is lifelong learning?</text>
+            <answers>
+                <answer id="a1">Learning that lasts a lifetime</answer>
+                <answer id="a2">Continuous pursuit of knowledge and skills throughout life</answer>
+                <answer id="a3">Learning until old age</answer>
+                <answer id="a4">Long training programs</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Lifelong learning is the ongoing, voluntary pursuit of knowledge and skills for personal or professional development throughout one's life.</explanation>
+        </question>
+
+        <!-- Final question -->
+        <question>
+            <id>train42</id>
+            <text>What is the main goal of effective training and development?</text>
+            <answers>
+                <answer id="a1">Completing training requirements</answer>
+                <answer id="a2">Improving performance and achieving organizational goals</answer>
+                <answer id="a3">Keeping employees busy</answer>
+                <answer id="a4">Spending training budget</answer>
+            </answers>
+            <correctAnswer>a2</correctAnswer>
+            <explanation>Effective training and development aims to enhance individual and organizational performance, ultimately contributing to achievement of strategic goals.</explanation>
+        </question>
+    </questions>
+</quiz>

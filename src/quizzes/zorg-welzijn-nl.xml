@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <title>Zorg &amp; Welzijn</title>
+    <description>Test je kennis over zorg, welzijn en hulpverlening</description>
+    <passingscore>70</passingscore>
+    <questions>
+        <question>
+            <text>Wat is de primaire doelstelling van zorgverlening?</text>
+            <answers>
+                <answer correct="true">Het welzijn en de gezondheid van patiënten bevorderen</answer>
+                <answer correct="false">Winst maken voor de zorginstelling</answer>
+                <answer correct="false">Zo snel mogelijk patiënten behandelen</answer>
+                <answer correct="false">Medicijnen voorschrijven</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke wetgeving regelt de kwaliteit van zorg in Nederland?</text>
+            <answers>
+                <answer correct="true">Wet kwaliteit, klachten en geschillen zorg (Wkkgz)</answer>
+                <answer correct="false">Algemene Wet Bestuursrecht (AWB)</answer>
+                <answer correct="false">Burgerlijk Wetboek</answer>
+                <answer correct="false">Wet op het hoger onderwijs</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is empathie in de zorgverlening?</text>
+            <answers>
+                <answer correct="true">Het vermogen om je in te leven in de situatie van een ander</answer>
+                <answer correct="false">Het geven van medische adviezen</answer>
+                <answer correct="false">Het uitvoeren van behandelingen</answer>
+                <answer correct="false">Het bijhouden van patiëntdossiers</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welk principe is essentieel bij het omgaan met patiëntgegevens?</text>
+            <answers>
+                <answer correct="true">Vertrouwelijkheid en privacy</answer>
+                <answer correct="false">Openheid naar alle collega&apos;s</answer>
+                <answer correct="false">Delen met familie</answer>
+                <answer correct="false">Publicatie voor onderzoek</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat betekent holistische zorg?</text>
+            <answers>
+                <answer correct="true">Zorg gericht op de hele persoon, niet alleen de ziekte</answer>
+                <answer correct="false">Alleen fysieke klachten behandelen</answer>
+                <answer correct="false">Medicatie voorschrijven</answer>
+                <answer correct="false">Snelle behandeling</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke competentie is belangrijk voor zorgverleners?</text>
+            <answers>
+                <answer correct="true">Communicatieve vaardigheden</answer>
+                <answer correct="false">Alleen technische kennis</answer>
+                <answer correct="false">Snel werken</answer>
+                <answer correct="false">Autoritair optreden</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is een zorgplan?</text>
+            <answers>
+                <answer correct="true">Een overzicht van de zorgdoelen en -activiteiten voor een patiënt</answer>
+                <answer correct="false">Een financieel overzicht</answer>
+                <answer correct="false">Een werkrooster</answer>
+                <answer correct="false">Een medicijnlijst</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welk recht hebben patiënten volgens de wet?</text>
+            <answers>
+                <answer correct="true">Het recht op informatie over hun behandeling</answer>
+                <answer correct="false">Het recht op gratis zorg</answer>
+                <answer correct="false">Het recht op elke gewenste behandeling</answer>
+                <answer correct="false">Het recht op voorrang</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is preventieve zorg?</text>
+            <answers>
+                <answer correct="true">Zorg gericht op het voorkomen van ziekte</answer>
+                <answer correct="false">Zorg na een operatie</answer>
+                <answer correct="false">Medicijnen geven</answer>
+                <answer correct="false">Revalidatie</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke beroepshouding past bij een zorgverlener?</text>
+            <answers>
+                <answer correct="true">Respectvol en professioneel</answer>
+                <answer correct="false">Afstandelijk en koel</answer>
+                <answer correct="false">Dominant en directief</answer>
+                <answer correct="false">Vriendschappelijk en informeel</answer>
+            </answers>
+        </question>
+
+        <question>
+            <text>Wat is multidisciplinaire samenwerking?</text>
+            <answers>
+                <answer correct="true">Samenwerking tussen verschillende zorgdisciplines</answer>
+                <answer correct="false">Werken met meerdere patiënten tegelijk</answer>
+                <answer correct="false">Samenwerking binnen één vakgebied</answer>
+                <answer correct="false">Administratieve samenwerking</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke factor is belangrijk voor patiëntveiligheid?</text>
+            <answers>
+                <answer correct="true">Goede communicatie tussen zorgverleners</answer>
+                <answer correct="false">Snelle behandeling</answer>
+                <answer correct="false">Goedkope zorg</answer>
+                <answer correct="false">Veel medicatie</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is informed consent?</text>
+            <answers>
+                <answer correct="true">Toestemming na volledige voorlichting</answer>
+                <answer correct="false">Automatische toestemming</answer>
+                <answer correct="false">Toestemming van familie</answer>
+                <answer correct="false">Stilzwijgende toestemming</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke houding hoort bij professionele zorgverlening?</text>
+            <answers>
+                <answer correct="true">Non-judgmental (oordeelloos)</answer>
+                <answer correct="false">Kritisch oordelen</answer>
+                <answer correct="false">Persoonlijke meningen uiten</answer>
+                <answer correct="false">Advies geven over levensstijl</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is een belangrijk aspect van zorgethiek?</text>
+            <answers>
+                <answer correct="true">Autonomie van de patiënt respecteren</answer>
+                <answer correct="false">Altijd voor de patiënt beslissen</answer>
+                <answer correct="false">Economische overwegingen voorop stellen</answer>
+                <answer correct="false">Snelheid boven kwaliteit</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke communicatietechniek is effectief in de zorg?</text>
+            <answers>
+                <answer correct="true">Actief luisteren</answer>
+                <answer correct="false">Veel praten</answer>
+                <answer correct="false">Onderbreken</answer>
+                <answer correct="false">Advies geven zonder vragen</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is kwaliteit van leven in de zorg?</text>
+            <answers>
+                <answer correct="true">Het welzijn en tevredenheid van patiënten</answer>
+                <answer correct="false">Alleen fysieke gezondheid</answer>
+                <answer correct="false">Financiële situatie</answer>
+                <answer correct="false">Medische testresultaten</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welk principe staat centraal in palliatieve zorg?</text>
+            <answers>
+                <answer correct="true">Comfort en waardigheid</answer>
+                <answer correct="false">Genezing tegen elke prijs</answer>
+                <answer correct="false">Experimentele behandelingen</answer>
+                <answer correct="false">Kosten besparing</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is belangrijk bij het overdragen van patiëntinformatie?</text>
+            <answers>
+                <answer correct="true">Accuraatheid en volledigheid</answer>
+                <answer correct="false">Snelheid</answer>
+                <answer correct="false">Persoonlijke interpretaties</answer>
+                <answer correct="false">Alleen de hoofdpunten</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke aanpak past bij persoonsgerichte zorg?</text>
+            <answers>
+                <answer correct="true">Individuele behoeften en voorkeuren centraal stellen</answer>
+                <answer correct="false">Standaard protocollen volgen</answer>
+                <answer correct="false">Alleen medische aspecten bekijken</answer>
+                <answer correct="false">Snel afhandelen</answer>
+            </answers>
+        </question>
+
+        <question>
+            <text>Wat is een zorgvuldige overdracht?</text>
+            <answers>
+                <answer correct="true">Volledige en accurate informatie doorgeven</answer>
+                <answer correct="false">Alleen de belangrijkste punten melden</answer>
+                <answer correct="false">Persoonlijke mening delen</answer>
+                <answer correct="false">Snel informeren</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke factor bevordert herstel van patiënten?</text>
+            <answers>
+                <answer correct="true">Sociale steun en betrokkenheid</answer>
+                <answer correct="false">Isolatie</answer>
+                <answer correct="false">Alleen medicatie</answer>
+                <answer correct="false">Bedrust</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is een indicatie in de zorg?</text>
+            <answers>
+                <answer correct="true">Reden voor een bepaalde behandeling</answer>
+                <answer correct="false">Resultaat van behandeling</answer>
+                <answer correct="false">Kosten van zorg</answer>
+                <answer correct="false">Tijdsduur van behandeling</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke eigenschap is belangrijk voor zorgverleners?</text>
+            <answers>
+                <answer correct="true">Betrouwbaarheid</answer>
+                <answer correct="false">Perfectie</answer>
+                <answer correct="false">Snelheid</answer>
+                <answer correct="false">Authoriteit</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat betekent patiëntparticipatie?</text>
+            <answers>
+                <answer correct="true">Actieve betrokkenheid van patiënten bij hun zorg</answer>
+                <answer correct="false">Patiënten alles laten beslissen</answer>
+                <answer correct="false">Patiënten informeren</answer>
+                <answer correct="false">Patiënten observeren</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welk aspect is belangrijk bij zorgverlening aan ouderen?</text>
+            <answers>
+                <answer correct="true">Respect voor ervaring en autonomie</answer>
+                <answer correct="false">Paternalistische benadering</answer>
+                <answer correct="false">Snelle afhandeling</answer>
+                <answer correct="false">Alleen medische focus</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is een zorgethisch dilemma?</text>
+            <answers>
+                <answer correct="true">Situatie waarin verschillende waarden conflicteren</answer>
+                <answer correct="false">Eenvoudige keuze</answer>
+                <answer correct="false">Medische fout</answer>
+                <answer correct="false">Administratieve fout</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke benadering past bij traumasensitieve zorg?</text>
+            <answers>
+                <answer correct="true">Begrip voor de impact van trauma</answer>
+                <answer correct="false">Trauma negeren</answer>
+                <answer correct="false">Direct confronteren</answer>
+                <answer correct="false">Standaard behandeling</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is belangrijk bij het omgaan met diversiteit in de zorg?</text>
+            <answers>
+                <answer correct="true">Culturele gevoeligheid en respect</answer>
+                <answer correct="false">Standaard behandeling voor iedereen</answer>
+                <answer correct="false">Eigen normen opleggen</answer>
+                <answer correct="false">Verschillen negeren</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welk principe staat centraal in evidence-based practice?</text>
+            <answers>
+                <answer correct="true">Beslissingen baseren op beste beschikbare bewijs</answer>
+                <answer correct="false">Alleen ervaring gebruiken</answer>
+                <answer correct="false">Intuïtie volgen</answer>
+                <answer correct="false">Traditie volgen</answer>
+            </answers>
+        </question>
+
+        <question>
+            <text>Wat is een belangrijk aspect van professionele ontwikkeling?</text>
+            <answers>
+                <answer correct="true">Levenslang leren en reflecteren</answer>
+                <answer correct="false">Alleen initiële opleiding</answer>
+                <answer correct="false">Ervaring opdoen</answer>
+                <answer correct="false">Certificaten verzamelen</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke houding past bij zorgverlening?</text>
+            <answers>
+                <answer correct="true">Openheid en flexibiliteit</answer>
+                <answer correct="false">Rigiditeit</answer>
+                <answer correct="false">Afstandelijkheid</answer>
+                <answer correct="false">Oordelen</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is een kernelement van goede zorgverlening?</text>
+            <answers>
+                <answer correct="true">Continuïteit van zorg</answer>
+                <answer correct="false">Wisselende zorgverleners</answer>
+                <answer correct="false">Fragmentatie</answer>
+                <answer correct="false">Ad-hoc benadering</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welk aspect is cruciaal voor interprofessionele samenwerking?</text>
+            <answers>
+                <answer correct="true">Wederzijds respect en vertrouwen</answer>
+                <answer correct="false">Hiërarchie</answer>
+                <answer correct="false">Competitie</answer>
+                <answer correct="false">Individualisme</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is een belangrijk element van zorgkwaliteit?</text>
+            <answers>
+                <answer correct="true">Patiënttevredenheid en uitkomsten</answer>
+                <answer correct="false">Alleen efficiëntie</answer>
+                <answer correct="false">Alleen kosten</answer>
+                <answer correct="false">Alleen snelheid</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke eigenschap is essentieel voor zorgverleners?</text>
+            <answers>
+                <answer correct="true">Zelfreflectie en zelfkennis</answer>
+                <answer correct="false">Perfectie nastreven</answer>
+                <answer correct="false">Nooit twijfelen</answer>
+                <answer correct="false">Alles weten</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is een belangrijke component van zorgverlening?</text>
+            <answers>
+                <answer correct="true">Emotionele ondersteuning</answer>
+                <answer correct="false">Alleen technische vaardigheden</answer>
+                <answer correct="false">Medicijnen toedienen</answer>
+                <answer correct="false">Procedures uitvoeren</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke benadering past bij moderne gezondheidszorg?</text>
+            <answers>
+                <answer correct="true">Gedeelde besluitvorming</answer>
+                <answer correct="false">Paternalistische benadering</answer>
+                <answer correct="false">Autonome beslissingen van zorgverleners</answer>
+                <answer correct="false">Standaard protocollen</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Wat is een belangrijk aspect van zorgcoördinatie?</text>
+            <answers>
+                <answer correct="true">Afstemming tussen verschillende zorgverleners</answer>
+                <answer correct="false">Individueel werken</answer>
+                <answer correct="false">Minimale communicatie</answer>
+                <answer correct="false">Ieder voor zich</answer>
+            </answers>
+        </question>
+        
+        <question>
+            <text>Welke factor draagt bij aan patiëntveiligheid?</text>
+            <answers>
+                <answer correct="true">Open communicatiecultuur</answer>
+                <answer correct="false">Fouten verbergen</answer>
+                <answer correct="false">Schuld zoeken</answer>
+                <answer correct="false">Individuele verantwoordelijkheid</answer>
+            </answers>
+        </question>
+    </questions>
+</quiz>
