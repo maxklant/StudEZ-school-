@@ -2,8 +2,8 @@ import './styles.css';
 import { Quiz, QuizResult, QuizState } from './types';
 import { XMLQuizParser } from './xmlParser';
 import { QuizManager } from './quizManager';
-import { StreakManager, StreakData } from './streakManager';
-import { LeaderboardManager } from './leaderboardManager';
+// import { StreakManager, StreakData } from './streakManager';
+// import { LeaderboardManager } from './leaderboardManager';
 
 class StudyEZApp {
     private quizManager: QuizManager;
