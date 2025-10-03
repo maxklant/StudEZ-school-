@@ -2,8 +2,8 @@ import './styles.css';
 import { Quiz, QuizResult, QuizState } from './types';
 import { XMLQuizParser } from './xmlParser';
 import { QuizManager } from './quizManager';
-// import { StreakManager, StreakData } from './streakManager';
-// import { LeaderboardManager } from './leaderboardManager';
+import { StreakManager, StreakData } from './streakManager';
+import { LeaderboardManager } from './leaderboardManager';
 
 class StudyEZApp {
     private quizManager: QuizManager;
@@ -1001,15 +1001,4 @@ class StudyEZApp {
 // Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     new StudyEZApp();
-});
-
-
-import { addScoreToLeaderboard, getLeaderboard } from './leaderboardManager'
-
-// Score toevoegen na een quiz:
-async function handleQuizCompleted(username: string, score: number) {
-  await addScoreToLeaderboard(username, score)
-  const leaderboard = await getLeaderboard()
-  // Toon leaderboard in je UI
-  console.log(leaderboard)
-}
+})

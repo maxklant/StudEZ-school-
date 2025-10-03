@@ -10,32 +10,44 @@ export interface StreakData {
 }
 
 export class StreakManager {
-    private static readonly STORAGE_KEY = 'studyez_streak_data';
-
+    private static readonly COOKIE_NAME = 'studyez_streak_data';
+    private static readonly COOKIE_EXPIRY_DAYS = 365;
+    
     /**
-     * Get current streak data from localStorage
+     * Get current streak data from cookies
      */
     static getStreakData(): StreakData {
-        try {
-            const raw = localStorage.getItem(this.STORAGE_KEY);
-            if (!raw) {
-                return this.defaultData();
+        const cookieData = this.getCookie(this.COOKIE_NAME);
+        
+        if (cookieData) {
+            try {
+                const parsed = JSON.parse(cookieData);
+                return {
+                    currentStreak: parsed.currentStreak || 0,
+                    longestStreak: parsed.longestStreak || 0,
+                    lastQuizDate: parsed.lastQuizDate || '',
+                    totalQuizzesPassed: parsed.totalQuizzesPassed || 0,
+                    totalQuizzesTaken: parsed.totalQuizzesTaken || 0,
+                    totalPoints: parsed.totalPoints || 0,
+                    consecutiveCorrectAnswers: parsed.consecutiveCorrectAnswers || 0,
+                    isInStreak: parsed.isInStreak || false
+                };
+            } catch (error) {
+                console.error('Error parsing streak data from cookie:', error);
             }
-            const parsed = JSON.parse(raw);
-            return {
-                currentStreak: parsed.currentStreak || 0,
-                longestStreak: parsed.longestStreak || 0,
-                lastQuizDate: parsed.lastQuizDate || '',
-                totalQuizzesPassed: parsed.totalQuizzesPassed || 0,
-                totalQuizzesTaken: parsed.totalQuizzesTaken || 0,
-                totalPoints: parsed.totalPoints || 0,
-                consecutiveCorrectAnswers: parsed.consecutiveCorrectAnswers || 0,
-                isInStreak: parsed.isInStreak || false
-            };
-        } catch (error) {
-            console.error('Error reading streak data from localStorage:', error);
-            return this.defaultData();
         }
+        
+        // Return default data if no cookie exists or parsing failed
+        return {
+            currentStreak: 0,
+            longestStreak: 0,
+            lastQuizDate: '',
+            totalQuizzesPassed: 0,
+            totalQuizzesTaken: 0,
+            totalPoints: 0,
+            consecutiveCorrectAnswers: 0,
+            isInStreak: false
+        };
     }
     
     /**
@@ -73,7 +85,7 @@ export class StreakManager {
             currentData.isInStreak = false;
         }
         
-        // Save updated data to localStorage
+        // Save updated data to cookies
         this.saveStreakData(currentData);
         
         return { data: currentData, pointsEarned };
@@ -101,11 +113,8 @@ export class StreakManager {
      * Save streak data to cookies
      */
     private static saveStreakData(data: StreakData): void {
-        try {
-            localStorage.setItem(this.STORAGE_KEY, JSON.stringify(data));
-        } catch (error) {
-            console.error('Error saving streak data to localStorage:', error);
-        }
+        const cookieValue = JSON.stringify(data);
+        this.setCookie(this.COOKIE_NAME, cookieValue, this.COOKIE_EXPIRY_DAYS);
     }
     
     /**
@@ -194,17 +203,37 @@ export class StreakManager {
     /**
      * Set a cookie
      */
-    private static defaultData(): StreakData {
-        return {
-            currentStreak: 0,
-            longestStreak: 0,
-            lastQuizDate: '',
-            totalQuizzesPassed: 0,
-            totalQuizzesTaken: 0,
-            totalPoints: 0,
-            consecutiveCorrectAnswers: 0,
-            isInStreak: false
-        };
+    private static setCookie(name: string, value: string, days: number): void {
+        const expires = new Date();
+        expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`;
+    }
+    
+    /**
+     * Get a cookie value
+     */
+    private static getCookie(name: string): string | null {
+        const nameEQ = name + "=";
+        const ca = document.cookie.split(';');
+        
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) === ' ') {
+                c = c.substring(1, c.length);
+            }
+            if (c.indexOf(nameEQ) === 0) {
+                return c.substring(nameEQ.length, c.length);
+            }
+        }
+        
+        return null;
+    }
+    
+    /**
+     * Delete a cookie
+     */
+    private static deleteCookie(name: string): void {
+        document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/;`;
     }
     
     /**

@@ -1,5 +1,4 @@
 import { StreakData } from './streakManager';
-import { loadLeaderboard, saveLeaderboard, clearLeaderboardStorage, LocalLeaderboardEntry } from './localDatabase';
 
 export interface LeaderboardEntry {
     playerName: string;
@@ -11,30 +10,22 @@ export interface LeaderboardEntry {
 }
 
 export class LeaderboardManager {
-    private static readonly PLAYER_NAME_KEY = 'studyez_player_name';
+    private static readonly LEADERBOARD_COOKIE = 'studyez_leaderboard';
+    private static readonly PLAYER_NAME_COOKIE = 'studyez_player_name';
     
     /**
      * Get current player name
      */
     static getPlayerName(): string {
-        try {
-            const name = localStorage.getItem(this.PLAYER_NAME_KEY);
-            return name || 'Anonymous Player';
-        } catch (e) {
-            console.error('Error reading player name from localStorage', e);
-            return 'Anonymous Player';
-        }
+        const name = this.getCookie(this.PLAYER_NAME_COOKIE);
+        return name || 'Anonymous Player';
     }
     
     /**
      * Set player name
      */
     static setPlayerName(name: string): void {
-        try {
-            localStorage.setItem(this.PLAYER_NAME_KEY, name);
-        } catch (e) {
-            console.error('Error saving player name to localStorage', e);
-        }
+        this.setCookie(this.PLAYER_NAME_COOKIE, name, 365);
     }
     
     /**
@@ -42,7 +33,7 @@ export class LeaderboardManager {
      */
     static updateLeaderboard(streakData: StreakData): void {
         const playerName = this.getPlayerName();
-        const leaderboard = loadLeaderboard() as LocalLeaderboardEntry[];
+        const leaderboard = this.getLeaderboard();
         
         // Find existing entry or create new one
         let playerEntry = leaderboard.find(entry => entry.playerName === playerName);
@@ -87,23 +78,24 @@ export class LeaderboardManager {
         // Keep only top 100 entries
         const topEntries = leaderboard.slice(0, 100);
         
-        saveLeaderboard(topEntries);
+        this.saveLeaderboard(topEntries);
     }
     
     /**
      * Get leaderboard data
      */
     static getLeaderboard(): LeaderboardEntry[] {
-        // Convert stored local entries to LeaderboardEntry type
-        const entries = loadLeaderboard();
-        return entries.map(e => ({
-            playerName: e.playerName,
-            totalPoints: e.totalPoints,
-            longestStreak: e.longestStreak,
-            totalQuizzesPassed: e.totalQuizzesPassed,
-            lastActive: e.lastActive,
-            rank: e.rank
-        }));
+        const cookieData = this.getCookie(this.LEADERBOARD_COOKIE);
+        
+        if (cookieData) {
+            try {
+                return JSON.parse(cookieData) || [];
+            } catch (error) {
+                console.error('Error parsing leaderboard data:', error);
+            }
+        }
+        
+        return [];
     }
     
     /**
@@ -140,14 +132,14 @@ export class LeaderboardManager {
      * Clear all leaderboard data
      */
     static clearLeaderboard(): void {
-        clearLeaderboardStorage();
+        this.deleteCookie(this.LEADERBOARD_COOKIE);
     }
     
     /**
      * Add sample data for testing
      */
     static addSampleData(): void {
-        const sampleData: LocalLeaderboardEntry[] = [
+        const sampleData: LeaderboardEntry[] = [
             { playerName: 'Quiz Master', totalPoints: 150, longestStreak: 25, totalQuizzesPassed: 20, lastActive: new Date().toISOString(), rank: 1 },
             { playerName: 'Study Pro', totalPoints: 128, longestStreak: 18, totalQuizzesPassed: 16, lastActive: new Date().toISOString(), rank: 2 },
             { playerName: 'Brain Trainer', totalPoints: 95, longestStreak: 15, totalQuizzesPassed: 12, lastActive: new Date().toISOString(), rank: 3 },
@@ -160,7 +152,50 @@ export class LeaderboardManager {
             { playerName: 'Beginner', totalPoints: 21, longestStreak: 4, totalQuizzesPassed: 4, lastActive: new Date().toISOString(), rank: 10 }
         ];
         
-        saveLeaderboard(sampleData);
+        this.saveLeaderboard(sampleData);
     }
     
+    /**
+     * Save leaderboard to cookies
+     */
+    private static saveLeaderboard(leaderboard: LeaderboardEntry[]): void {
+        const cookieValue = JSON.stringify(leaderboard);
+        this.setCookie(this.LEADERBOARD_COOKIE, cookieValue, 365);
+    }
+    
+    /**
+     * Set a cookie
+     */
+    private static setCookie(name: string, value: string, days: number): void {
+        const expires = new Date();
+        expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`;
+    }
+    
+    /**
+     * Get a cookie value
+     */
+    private static getCookie(name: string): string | null {
+        const nameEQ = name + "=";
+        const ca = document.cookie.split(';');
+        
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) === ' ') {
+                c = c.substring(1, c.length);
+            }
+            if (c.indexOf(nameEQ) === 0) {
+                return c.substring(nameEQ.length, c.length);
+            }
+        }
+        
+        return null;
+    }
+    
+    /**
+     * Delete a cookie
+     */
+    private static deleteCookie(name: string): void {
+        document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/;`;
+    }
 }
