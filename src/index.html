@@ -27,6 +27,10 @@
                         <span class="nav-icon">🏆</span>
                         <span class="nav-text">Ranglijst</span>
                     </button>
+                    <button id="admin-nav" class="nav-btn">
+                        <span class="nav-icon">🛠️</span>
+                        <span class="nav-text">Admin</span>
+                    </button>
                     <button id="settings-nav" class="nav-btn">
                         <span class="nav-icon">⚙️</span>
                         <span class="nav-text">Instellingen</span>
@@ -180,6 +184,110 @@
 
                     <div class="settings-actions">
                         <button id="settings-home-btn" class="btn btn-primary">Terug naar Home</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Admin Screen -->
+            <div id="admin-screen" class="screen">
+                <div class="screen-header">
+                    <h2>Admin Dashboard</h2>
+                    <p>Beheer quizzes en bekijk statistieken</p>
+                </div>
+
+                <!-- Admin Login -->
+                <div id="admin-login" class="admin-login">
+                    <div class="login-card">
+                        <h3>Admin Login</h3>
+                        <div class="form-group">
+                            <label for="admin-password">Wachtwoord:</label>
+                            <input type="password" id="admin-password" placeholder="Voer admin wachtwoord in">
+                        </div>
+                        <button id="admin-login-btn" class="btn btn-primary">Inloggen</button>
+                    </div>
+                </div>
+
+                <!-- Admin Panel -->
+                <div id="admin-panel" class="admin-panel hidden">
+                    <div class="admin-header">
+                        <h3>Welkom Admin</h3>
+                        <button id="admin-logout-btn" class="btn btn-secondary">Uitloggen</button>
+                    </div>
+
+                    <!-- Quiz Import Section -->
+                    <div class="admin-section">
+                        <h4>Quiz Importeren</h4>
+                        <p>Importeer XML quiz bestanden om ze toe te voegen aan het platform.</p>
+                        
+                        <div class="import-controls">
+                            <button id="import-quiz-btn" class="btn btn-primary">
+                                📁 XML Bestand Selecteren
+                            </button>
+                            <input type="file" id="quiz-file-input" accept=".xml" style="display: none;">
+                            <button id="export-quizzes-btn" class="btn btn-secondary">
+                                💾 Alle Quizzes Exporteren
+                            </button>
+                        </div>
+
+                        <div class="import-info">
+                            <h5>XML Structuur Voorbeeld:</h5>
+                            <pre><code>&lt;quiz&gt;
+    &lt;id&gt;example-quiz&lt;/id&gt;
+    &lt;title&gt;Voorbeeld Quiz&lt;/title&gt;
+    &lt;description&gt;Een voorbeeld quiz&lt;/description&gt;
+    &lt;difficulty&gt;gemiddeld&lt;/difficulty&gt;
+    &lt;passingScore&gt;70&lt;/passingScore&gt;
+    &lt;timeLimit&gt;15&lt;/timeLimit&gt;
+    &lt;theme&gt;#3498db&lt;/theme&gt;
+    &lt;category&gt;Algemeen&lt;/category&gt;
+    &lt;questions&gt;
+        &lt;question&gt;
+            &lt;id&gt;q1&lt;/id&gt;
+            &lt;text&gt;Wat is 2 + 2?&lt;/text&gt;
+            &lt;answers&gt;
+                &lt;answer id="a1"&gt;3&lt;/answer&gt;
+                &lt;answer id="a2"&gt;4&lt;/answer&gt;
+                &lt;answer id="a3"&gt;5&lt;/answer&gt;
+            &lt;/answers&gt;
+            &lt;correctAnswer&gt;a2&lt;/correctAnswer&gt;
+            &lt;explanation&gt;2 + 2 = 4&lt;/explanation&gt;
+        &lt;/question&gt;
+    &lt;/questions&gt;
+&lt;/quiz&gt;</code></pre>
+                        </div>
+                    </div>
+
+                    <!-- Quiz Management Section -->
+                    <div class="admin-section">
+                        <h4>Quiz Beheer</h4>
+                        <p>Bekijk en beheer alle geïmporteerde quizzes.</p>
+                        
+                        <div id="admin-quiz-list" class="quiz-list">
+                            <!-- Quiz list will be populated here -->
+                        </div>
+                    </div>
+
+                    <!-- Statistics Section -->
+                    <div class="admin-section">
+                        <h4>Statistieken</h4>
+                        <div class="admin-stats">
+                            <div class="stat-card">
+                                <h5>Totaal Quizzes</h5>
+                                <span id="total-quizzes">0</span>
+                            </div>
+                            <div class="stat-card">
+                                <h5>Totaal Vragen</h5>
+                                <span id="total-questions">0</span>
+                            </div>
+                            <div class="stat-card">
+                                <h5>Gemiddelde Moeilijkheid</h5>
+                                <span id="avg-difficulty">-</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="admin-actions">
+                        <button id="admin-home-btn" class="btn btn-primary">Terug naar Home</button>
                     </div>
                 </div>
             </div>

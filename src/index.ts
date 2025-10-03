@@ -4,9 +4,11 @@ import { XMLQuizParser } from './xmlParser';
 import { QuizManager } from './quizManager';
 import { StreakManager, StreakData } from './streakManager';
 import { LeaderboardManager } from './leaderboardManager';
+import { AdminManager } from './adminManager';
 
 class StudyEZApp {
     private quizManager: QuizManager;
+    private adminManager: AdminManager;
     private availableQuizzes: Quiz[] = [];
     private currentResult: QuizResult | null = null;
     private currentStreakData: StreakData;
@@ -19,10 +21,13 @@ class StudyEZApp {
     private resultsScreen!: HTMLElement;
     private leaderboardScreen!: HTMLElement;
     private settingsScreen!: HTMLElement;
+    private adminScreen!: HTMLElement;
     
     constructor() {
         this.quizManager = new QuizManager();
+        this.adminManager = new AdminManager();
         this.quizManager.setOnStateChange(this.handleStateChange.bind(this));
+        this.adminManager.setOnQuizChange(() => this.reloadQuizzes());
         
         // Initialize streak data
         this.currentStreakData = StreakManager.getStreakData();
@@ -41,6 +46,7 @@ class StudyEZApp {
         this.resultsScreen = document.getElementById('results-screen')!;
         this.leaderboardScreen = document.getElementById('leaderboard-screen')!;
         this.settingsScreen = document.getElementById('settings-screen')!;
+        this.adminScreen = document.getElementById('admin-screen')!
         
         // Set up event listeners
         this.setupEventListeners();
@@ -89,12 +95,14 @@ class StudyEZApp {
         const homeNavBtn = document.getElementById('home-nav-btn')!;
         const homeNav = document.getElementById('home-nav')!;
         const leaderboardNav = document.getElementById('leaderboard-nav')!;
+        const adminNav = document.getElementById('admin-nav')!;
         const settingsNav = document.getElementById('settings-nav')!;
         const mobileMenuBtn = document.getElementById('mobile-menu-btn')!;
         
         homeNavBtn.addEventListener('click', () => this.navigateToHome());
         homeNav.addEventListener('click', () => this.navigateToHome());
         leaderboardNav.addEventListener('click', () => this.navigateToLeaderboard());
+        adminNav.addEventListener('click', () => this.navigateToAdmin());
         settingsNav.addEventListener('click', () => this.navigateToSettings());
         mobileMenuBtn.addEventListener('click', () => this.toggleMobileMenu());
         
@@ -123,6 +131,10 @@ class StudyEZApp {
         exportDataBtn.addEventListener('click', () => this.exportUserData());
         resetAllDataBtn.addEventListener('click', () => this.confirmResetAllData());
         settingsHomeBtn.addEventListener('click', () => this.goHome());
+        
+        // Admin screen buttons
+        const adminHomeBtn = document.getElementById('admin-home-btn');
+        adminHomeBtn?.addEventListener('click', () => this.goHome());
     }
     
     /**
@@ -150,6 +162,10 @@ class StudyEZApp {
                 }
             }
             
+            // Load imported quizzes from admin
+            const importedQuizzes = this.adminManager.getAllQuizzes();
+            this.availableQuizzes.push(...importedQuizzes);
+            
             // Fallback to sample quiz if no XML files loaded
             if (this.availableQuizzes.length === 0) {
                 const jsQuizXML = XMLQuizParser.createSampleXML();
@@ -161,6 +177,15 @@ class StudyEZApp {
         } catch (error) {
             console.error('Error loading quizzes:', error);
         }
+    }
+    
+    /**
+     * Reload available quizzes (including imported ones)
+     */
+    public reloadQuizzes(): void {
+        // Clear current quizzes and reload
+        this.availableQuizzes = [];
+        this.loadSampleQuizzes();
     }
     
     /**
@@ -425,7 +450,7 @@ class StudyEZApp {
     /**
      * Show specific screen
      */
-    private showScreen(screenName: 'home' | 'quiz' | 'results' | 'leaderboard' | 'settings'): void {
+    private showScreen(screenName: 'home' | 'quiz' | 'results' | 'leaderboard' | 'admin' | 'settings'): void {
         // Hide all screens
         document.querySelectorAll('.screen').forEach(screen => {
             screen.classList.remove('active');
@@ -437,6 +462,7 @@ class StudyEZApp {
             'quiz': this.quizScreen,
             'results': this.resultsScreen,
             'leaderboard': this.leaderboardScreen,
+            'admin': this.adminScreen,
             'settings': this.settingsScreen
         };
         
@@ -668,6 +694,15 @@ class StudyEZApp {
     }
     
     /**
+     * Navigate to admin and update nav
+     */
+    private navigateToAdmin(): void {
+        this.showScreen('admin');
+        this.updateActiveNavigation('admin');
+        this.closeMobileMenu();
+    }
+    
+    /**
      * Navigate to settings and update nav
      */
     private navigateToSettings(): void {
@@ -679,7 +714,7 @@ class StudyEZApp {
     /**
      * Update active navigation button
      */
-    private updateActiveNavigation(active: 'home' | 'leaderboard' | 'settings'): void {
+    private updateActiveNavigation(active: 'home' | 'leaderboard' | 'admin' | 'settings'): void {
         const navButtons = document.querySelectorAll('.nav-btn');
         navButtons.forEach(btn => btn.classList.remove('active'));
         
@@ -1001,4 +1036,4 @@ class StudyEZApp {
 // Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     new StudyEZApp();
-})
+});
